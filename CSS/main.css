@@ -8,8 +8,6 @@
     box-sizing: border-box;
 }
 
-
-
 /*VARIABLES*/
 
 :root {
@@ -32,25 +30,24 @@ font-family: 'Public Sans', sans-serif;
 
 
 /* <<<<<<            MAIN PAGE          >>>>> */
-/* MAIN PAGE BACKGROUD */
-html {
-    background-color: #edf3f8;
-}
-
 
 
 /* BODY */
-/* HEADER */
 
-header {
-    margin: 0 auto;
+body {
+    /*BODY BACKGROUND*/
+    background-color: #edf3f8;
     width: 23.438rem;
-    height: 46.51rem;
     background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
     background-repeat: no-repeat;
-    background-position: 50% -34.178rem;
+    background-position: right 50% top -34.283rem;
     background-size: 48.75rem 48.75rem;
+    margin: 0 auto;
 }
+
+/* HEADER */
+
+
 
 /* NAV */
 
@@ -65,19 +62,27 @@ header {
 /* FOOTER */
 
 
+
+
 /* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
 /* >768px */
 
 @media (min-width: 768px) {
+
     /* BODY */
+    body {
+        /*BODY BACKGROUND*/
+        width: 48rem;
+        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+        background-position: right 50% top -41rem;
+        background-size: 59.3rem 59.3rem;
+        margin: 0 auto;
+    }
 
     /* HEADER */
-    header {
-        width: 48rem;
-        height: 50.465rem;
-        background-position: 50% -41.5rem;
-        background-size: 59.3rem 59.3rem;
-    }
+
 
     /* NAV */
 
@@ -94,11 +99,22 @@ header {
 
 }
 
-/* >1024px */
-@media (min-width: 1024px) {
+/* >1440px */
+@media (min-width: 1440px) {
 
     /* BODY */
+    body {
+        /*BODY BACKGROUND*/
+        width: 89.5rem;
+        height: 192rem;
+        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg'), url('../IMG/shared/desktop/bg-pattern-circle.svg');
+        background-position: right -8.85rem top -10.85rem, right -24.4rem top 103.63rem;
+        background-size: 48.8rem 48.8rem;
+        margin: 0 auto;
+    }
+
     /* HEADER */
+
 
     /* NAV */
 
