@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- HEAD -->
+<!-- HEAD -->
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Code_Crafting_Wizards" />
-    <meta name="keywords" content="Design, payapi, APIs" />
-    <meta
-      name="description"
-      content="Start building with our APIs for absolutely free"
-    />
-
-    <link rel="icon" type="image/x-icon" href="IMG/favicon-32x32.png" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Code_Crafting_Wizards">
+    <meta name="keywords" content="Design, payapi, APIs">
+    <meta name="description" content="Start building with our APIs for absolutely free">
+    <link rel="icon" type="image/x-icon" href="IMG/favicon-32x32.png">
     <!-- Typography DM Serif Display & Publick Sans-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="./CSS/navigation.css" />
-
-    <!-- typography -->
-    <title>API APP Design</title>
-  </head>
+    <link rel="stylesheet" href="CSS/header.css">
 
   <!-- <<<<<<            MAIN PAGE          >>>>> -->
 
@@ -34,10 +25,7 @@
   <!-- BODY -->
 
   <body>
-    <!-- HEADER -->
-    <header></header>
-    <!-- NAV -->
-    <!-- Navigacija  -->
+  <!-- NAV -->
     <nav class="navbar">
       <!-- Siame logo-list turime logo ir list Pricing About Contact -->
       <div class="logo-list">
@@ -68,6 +56,22 @@
       </div>
       <button class="schedule-demo">Schedule a Demo</button>
     </nav>
+        <!-- HEADER -->
+    <header>
+        <img
+                alt="phone"
+                src="IMG/home/desktop/illustration-phone-mockup.svg"
+                class="test"
+        />
+        <form action="#" onsubmit="setTimeout(function(){window.location.reload();},10);">
+            <h1>Start building with our APIs for absolutely free.</h1>
+            <div class="input-container">
+                <input type="email" id="email" placeholder="Enter your email" class="email-input" required/>
+                <input type="submit" class="btn-demo" value="Schedule a Demo">
+            </div>
+            <p>Have any questions? <a href="/PAGES/contacts.html">Contact Us</a></p>
+        </form>
+    </header>
 
     <!-- MAIN -->
     <main>
@@ -86,13 +90,18 @@
             <article></article>
             <article></article>
             <article></article> -->
+        </section>
+
+        <!-- READY TO START LINE BEFORE FOOTER -->
       </section>
 
       <!-- READY TO START LINE BEFORE FOOTER -->
     </main>
 
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+
+    </footer>
 
     <script src="./JS/main.js"></script>
   </body>

@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 0.125rem;
+    margin: 0 auto;
+    width: 23.438rem;
+    height: 39.438rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 8rem;
+    height: 15rem;
+    flex-shrink: 0;
+}
+
+h1 {
+    width: 20.4375rem;
+    color: #36536B;
+    text-align: center;
+    font-family: DM Serif Display, serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25rem;
+    letter-spacing: -0.01538rem;
+}
+
+form {
+    display: flex;
+    width: 20.4375rem;
+    height: 17.8125rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-shrink: 0;
+    margin-top: 1.875rem;
+}
+
+form input {
+    width: 20.4375rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border: none;
+}
+
+form input:focus-visible {
+    outline: none;
+}
+
+form input::placeholder {
+    color: #6C8294;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+    opacity: 0.5;
+}
+
+input[type="email"] {
+    padding-left: 1.69rem;
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+
+form input:hover {
+    cursor: pointer;
+}
+
+form .btn-demo {
+    width: 20.4375rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    background: #BA4270;
+    color: #FBFCFE;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+    cursor: pointer;
+    border: none;
+}
+
+form .btn-demo:hover {
+    border-radius: 1.5rem;
+    background: #DA6D97;
+}
+
+p {
+    color: #6C8294;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p a {
+    color: #6C8294;
+    font-family: Public Sans sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    img {
+        width: 9.73531rem;
+        height: 18.70731rem;
+        flex-shrink: 0;
+    }
+
+    h1 {
+        width: 35.8125rem;
+        height: 7.625rem;
+        flex-shrink: 0;
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.5rem;
+        letter-spacing: -0.02306rem;
+    }
+
+    .input-container {
+        width: 27.8125rem;
+        height: 3rem;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.5rem; /* 116.667% */
+        letter-spacing: -0.02306rem;
+    }
+
+    form .btn-demo {
+        width: 10.8125rem;
+        height: 3rem;
+        flex-shrink: 0;
+        color: #FBFCFE;
+        font-family: Public Sans;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.00719rem;
+        margin-left: -3.563rem;
+    }
+
+    form input [type='email'] {
+        width: 10.8125rem;
+        height: 3rem;
+        flex-shrink: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    header{
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 90rem;
+        height: 35.938rem;
+        gap: 12.875rem;
+        margin-right: 15.75rem;
+        margin-top: -0.938rem
+    }
+
+    img {
+        width: 16.10306rem;
+        height: 31.17881rem;
+        flex-shrink: 0;
+        margin-top: 4.625rem;
+    }
+
+    h1{
+        width: 34.125rem;
+        height: 15.1875rem;
+        color: #36536B;
+        font-family: DM Serif Display;
+        font-size: 4.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 4.5rem; /* 100% */
+        letter-spacing: -0.03463rem;
+        text-align: left;
+    }
+
+    form{
+        width: 27.8125rem;
+        height: 3rem;
+        flex-shrink: 0;
+        align-items: start;
+    }
+
+    form p{
+        margin-left: 1.5rem;
+    }
+
+}
+
