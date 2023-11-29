@@ -11,13 +11,13 @@ body {
 
 }
 
-/* Navigacijos nusatymas desktop ir tablet */
-@media screen and (min-width:768px) {
+/* Navigacijos nusatymas desktop */
+@media screen and (min-width:1025px) {
     .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1110px;
+        max-width: 1200px;
         margin: 0.938rem auto;
 
 
@@ -37,6 +37,110 @@ body {
 
     .logo {
         cursor: pointer;
+        
+    }.payapi{
+        height: 38px;
+        align-items: center;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .menu li {
+        margin: 0 0.625rem;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #36536B;
+        font-family: 'Public Sans',sans-serif;
+        font-size: 0.93rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        opacity: 0.7;
+
+    }
+
+    .menu a:hover {
+        opacity: 1;
+    }
+
+    .schedule-demo {
+        padding: 1rem 2.5rem;
+        background-color: #BA4270;
+        border-radius: 1.5rem;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border: none;
+        flex-shrink: 0;
+        color: #FBFCFE;
+        text-decoration: none;
+        font-family: 'Public Sans',sans-serif;
+        font-size: 0.938rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+    }
+
+    /* Neatgaminu kas cia  */
+    /* .schedule-demo-list{
+        display: none;
+    } */
+    .schedule-demo:hover {
+        background-color: #DA6D97;
+        cursor: pointer;
+    }
+
+    .close-menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+}
+/* Media tablet */
+@media screen and (min-width:768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1024px;
+        margin: 0.938rem auto;
+        margin-top: 1.5rem;
+
+
+    }
+
+    .logo-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 3.125rem;
+
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .logo {
+        cursor: pointer;
+        
+    }.payapi{
+        height: 38px;
+        align-items: center;
+        position: relative;
+        margin-top: 10px;
     }
 
     .menu {
@@ -103,6 +207,7 @@ body {
 
 }
 
+
 /* Mobiliojo ekrano stiliai */
 /* Meniu nustatymas esant mobile aplinkoje  */
 
@@ -147,11 +252,20 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        max-width: 23.438rem;
         align-items: center;
+        margin-top: 1.6rem;
+        margin-bottom: 2rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        
 
     }
-
+    .payapi{
+        height: 38px;
+        align-items: center;
+        margin-left: -2.5rem;
+        
+    }
     .logo-list {
         display: flex;
         flex-direction: row;
@@ -210,8 +324,9 @@ body {
     .logo-x {
         display: block;
         position: absolute;
-        right: 1.25rem;
+        right: 0.1rem;
         top: 2.5rem;
+        height:1.25rem;
 
     }
 
