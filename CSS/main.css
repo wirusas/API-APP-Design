@@ -73,6 +73,10 @@ footer img {
     margin: 0 0.75rem;
 }
 
+.social-hover:hover {
+    filter: brightness(0) saturate(100%) invert(52%) sepia(84%) saturate(307%) hue-rotate(286deg) brightness(87%) contrast(95%);
+}
+
 .payapi-footer-logo {
     width: 8.4375rem;
     height: 2.375rem;
@@ -195,12 +199,7 @@ footer a:active {
     }
 
 
-    /* pakeisti spalva svg */
-    .social-hover:hover{
-        filter: brightness(0) saturate(100%) invert(52%) sepia(84%) saturate(307%) hue-rotate(286deg) brightness(87%) contrast(95%);
-    }
-
-    /* HEADER */
+      /* HEADER */
 
 
     /* NAV */
