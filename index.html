@@ -34,11 +34,11 @@
                 src="IMG/home/desktop/illustration-phone-mockup.svg"
                 class="test"
         />
-        <form action="">
+        <form action="#" onsubmit="setTimeout(function(){window.location.reload();},10);">
             <h1>Start building with our APIs for absolutely free.</h1>
             <div class="input-container">
-                <input type="text" placeholder="Enter email address">
-                <button>Schedule a Demo</button>
+                <input type="email" id="email" placeholder="Enter your email" class="email-input" required/>
+                <input type="submit" class="btn-demo" value="Schedule a Demo">
             </div>
             <p>Have any questions? <a href="/PAGES/contacts.html">Contact Us</a></p>
         </form>
