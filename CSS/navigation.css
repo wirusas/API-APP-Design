@@ -1,0 +1,223 @@
+/* Resetas css i default  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+}
+
+/* Navigacijos nusatymas desktop ir tablet */
+@media screen and (min-width:768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1110px;
+        margin: 0.938rem auto;
+
+
+    }
+
+    .logo-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 3.125rem;
+
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .logo {
+        cursor: pointer;
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .menu li {
+        margin: 0 0.625rem;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #36536B;
+        font-family: 'Public Sans',sans-serif;
+        font-size: 0.93rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        opacity: 0.7;
+
+    }
+
+    .menu a:hover {
+        opacity: 1;
+    }
+
+    .schedule-demo {
+        padding: 1rem 2.5rem;
+        background-color: #BA4270;
+        border-radius: 1.5rem;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border: none;
+        flex-shrink: 0;
+        color: #FBFCFE;
+        text-decoration: none;
+        font-family: 'Public Sans',sans-serif;
+        font-size: 0.938rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+    }
+
+    /* Neatgaminu kas cia  */
+    /* .schedule-demo-list{
+        display: none;
+    } */
+    .schedule-demo:hover {
+        background-color: #DA6D97;
+        cursor: pointer;
+    }
+
+    .close-menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+}
+
+/* Mobiliojo ekrano stiliai */
+/* Meniu nustatymas esant mobile aplinkoje  */
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0.063rem;
+        right: 0.313rem;
+        max-width: 22.23rem;
+        background-color: #1B262F;
+        z-index: 1;
+        height: 41.688rem;
+        padding: 2.5rem;
+        flex-shrink: 0
+    }
+
+    .menu.active {
+        display: flex;
+
+    }
+
+    .menu li {
+        margin: 0.625rem 0;
+        list-style: none;
+        text-align: center;
+    }
+
+
+    .menu-toggle {
+        position: absolute;
+        right: 1.25rem;
+        cursor: pointer;
+    }
+
+    .schedule-demo {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 23.438rem;
+        align-items: center;
+
+    }
+
+    .logo-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    .close-menu {
+        display: block;
+        border-bottom: 0.125rem solid rgb(251, 252, 254);
+        width: 100%;
+        opacity: 0.3;
+        padding: 0.1rem;
+    }
+
+    .menu a {
+        color: #FBFCFE;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Public Sans',sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.125rem;
+        text-decoration: none;
+        opacity: 0.6;
+
+    }
+
+    /* Schedule demo migtukas mobiliai aplinkai  */
+    .mobile {
+        display: block;
+        color: #FBFCFE;
+        text-decoration: none;
+        font-family: 'Public Sans',sans-serif;
+        font-size: 0.938rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.007rem;
+        padding: 1rem 4.7rem;
+        background-color: #BA4270;
+        border-radius: 1.5rem;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border: none;
+        flex-shrink: 0
+    }
+
+    .mobile:hover {
+        background-color: #DA6D97;
+        cursor: pointer;
+    }
+
+    .logo-x {
+        display: block;
+        position: absolute;
+        right: 1.25rem;
+        top: 2.5rem;
+
+    }
+
+    .menu a:hover {
+        opacity: 1;
+    }
+
+
+}
