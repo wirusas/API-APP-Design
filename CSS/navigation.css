@@ -1,3 +1,5 @@
+@import 'main.css';
+
 /* Resetas css i default  */
 * {
     margin: 0;
@@ -17,7 +19,8 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1200px;
+        width: 68.75rem;
+        height: 3rem;
         margin: 0.938rem auto;
 
 
@@ -37,11 +40,13 @@ body {
 
     .logo {
         cursor: pointer;
-        
-    }.payapi{
-        height: 38px;
+
+    }
+
+    .payapi {
+        height: 2.375rem;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 0.625rem;
         position: relative;
     }
 
@@ -58,8 +63,8 @@ body {
 
     .menu a {
         text-decoration: none;
-        color: #36536B;
-        font-family: 'Public Sans',sans-serif;
+        color: var(--suan-juan-blue);
+        font-family: 'Public Sans', sans-serif;
         font-size: 0.93rem;
         font-style: normal;
         font-weight: 700;
@@ -74,19 +79,19 @@ body {
 
     .schedule-demo {
         padding: 1rem 2.5rem;
-        background-color: #BA4270;
+        background-color: var(--dark-pink);
         border-radius: 1.5rem;
-        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        box-shadow: 0.625rem 0.625rem 1.563rem -0.625rem rgba(54, 83, 107, 0.25);
         border: none;
         flex-shrink: 0;
-        color: #FBFCFE;
+        color: var(--link-water-white);
         text-decoration: none;
-        font-family: 'Public Sans',sans-serif;
+        font-family: 'Public Sans', sans-serif;
         font-size: 0.938rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        letter-spacing: -0.115px;
+        letter-spacing: -0.007rem;
     }
 
     /* Neatgaminu kas cia  */
@@ -94,7 +99,7 @@ body {
         display: none;
     } */
     .schedule-demo:hover {
-        background-color: #DA6D97;
+        background-color: var(--charm-pink-actives);
         cursor: pointer;
     }
 
@@ -108,15 +113,18 @@ body {
     }
 
 }
+
 /* Media tablet */
 @media screen and (min-width:768px) {
     .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1024px;
+        max-width: 64rem;
+        height: 2.375rem;
         margin: 0.938rem auto;
         margin-top: 1.5rem;
+
 
 
     }
@@ -127,6 +135,7 @@ body {
         align-items: center;
         column-gap: 3.125rem;
 
+
     }
 
     .menu-toggle {
@@ -135,12 +144,14 @@ body {
 
     .logo {
         cursor: pointer;
-        
-    }.payapi{
-        height: 38px;
+
+    }
+
+    .payapi {
+        height: 2.375rem;
         align-items: center;
         position: relative;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 
     .menu {
@@ -156,8 +167,8 @@ body {
 
     .menu a {
         text-decoration: none;
-        color: #36536B;
-        font-family: 'Public Sans',sans-serif;
+        color: var(--suan-juan-blue);
+        font-family: 'Public Sans', sans-serif;
         font-size: 0.93rem;
         font-style: normal;
         font-weight: 700;
@@ -172,19 +183,19 @@ body {
 
     .schedule-demo {
         padding: 1rem 2.5rem;
-        background-color: #BA4270;
+        background-color: var(--dark-pink);
         border-radius: 1.5rem;
-        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        box-shadow: 0.625rem 0.625rem 1.563rem -0.625rem rgba(54, 83, 107, 0.25);
         border: none;
         flex-shrink: 0;
-        color: #FBFCFE;
+        color: var(--link-water-white);
         text-decoration: none;
-        font-family: 'Public Sans',sans-serif;
+        font-family: 'Public Sans', sans-serif;
         font-size: 0.938rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        letter-spacing: -0.115px;
+        letter-spacing: -0.007rem;
     }
 
     /* Neatgaminu kas cia  */
@@ -192,7 +203,7 @@ body {
         display: none;
     } */
     .schedule-demo:hover {
-        background-color: #DA6D97;
+        background-color: var(--charm-pink-actives);
         cursor: pointer;
     }
 
@@ -219,7 +230,7 @@ body {
         top: 0.063rem;
         right: 0.313rem;
         max-width: 22.23rem;
-        background-color: #1B262F;
+        background-color: var(--mirage-blue);
         z-index: 1;
         height: 41.688rem;
         padding: 2.5rem;
@@ -257,15 +268,17 @@ body {
         margin-bottom: 2rem;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
-        
+
 
     }
-    .payapi{
-        height: 38px;
+
+    .payapi {
+        height: 2.375rem;
         align-items: center;
-        margin-left: -2.5rem;
-        
+        margin-left: 0.3rem;
+
     }
+
     .logo-list {
         display: flex;
         flex-direction: row;
@@ -277,17 +290,18 @@ body {
 
     .close-menu {
         display: block;
-        border-bottom: 0.125rem solid rgb(251, 252, 254);
+        border-bottom: 0.125rem solid rgb(251, 252, 254, 0.3);
         width: 100%;
-        opacity: 0.3;
         padding: 0.1rem;
+
+
     }
 
     .menu a {
-        color: #FBFCFE;
+        color: var(--link-water-white);
         padding: 1rem;
         text-align: center;
-        font-family: 'Public Sans',sans-serif;
+        font-family: 'Public Sans', sans-serif;
         font-size: 1.25rem;
         font-style: normal;
         font-weight: 700;
@@ -300,24 +314,24 @@ body {
     /* Schedule demo migtukas mobiliai aplinkai  */
     .mobile {
         display: block;
-        color: #FBFCFE;
+        color: var(--link-water-white);
         text-decoration: none;
-        font-family: 'Public Sans',sans-serif;
+        font-family: 'Public Sans', sans-serif;
         font-size: 0.938rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.007rem;
         padding: 1rem 4.7rem;
-        background-color: #BA4270;
+        background-color: var(--dark-pink);
         border-radius: 1.5rem;
-        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        box-shadow: 0.625rem 0.625rem 1.563rem -0.625rem rgba(54, 83, 107, 0.25);
         border: none;
         flex-shrink: 0
     }
 
     .mobile:hover {
-        background-color: #DA6D97;
+        background-color: var(--charm-pink-actives);
         cursor: pointer;
     }
 
@@ -326,13 +340,14 @@ body {
         position: absolute;
         right: 0.1rem;
         top: 2.5rem;
-        height:1.25rem;
+        height: 1.25rem;
+
+
+
 
     }
 
-    .menu a:hover {
-        opacity: 1;
-    }
+
 
 
 }
