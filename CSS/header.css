@@ -192,8 +192,7 @@ p a {
         width: 90rem;
         height: 35.938rem;
         gap: 12.875rem;
-        margin-right: 15.75rem;
-        margin-top: -0.938rem
+        margin: -0.938rem auto;
     }
 
     img {
