@@ -61,7 +61,7 @@ form input:focus-visible {
 form input::placeholder {
     color: #6C8294;
     font-family: Public Sans;
-    font-size: 0.9375rem;
+    font-size: 0.938rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -72,12 +72,15 @@ form input::placeholder {
 input[type="email"] {
     padding-left: 1.69rem;
     color: #36536B;
-    font-family: Public Sans;
-    font-size: 0.9375rem;
+    font-family: Public Sans sans;
+    font-size: 0.938rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 }
 
 form input:hover {
@@ -120,6 +123,7 @@ p a {
     color: #6C8294;
     font-family: Public Sans sans-serif;
     font-size: 0.9375rem;
+
     font-style: normal;
     font-weight: 700;
     line-height: normal;
