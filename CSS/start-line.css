@@ -82,43 +82,26 @@
     border: none;
 }
 
-header form .btn-demo:hover {
+.ready-to-start .btn-demo:hover {
     border-radius: 1.5rem;
     background: #DA6D97;
 }
 
-.ready-to-start p {
-    color: #6C8294;
-    font-family: Public Sans;
-    font-size: 0.9375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.ready-to-start p a {
-    color: #6C8294;
-    font-family: Public Sans sans-serif;
-    font-size: 0.9375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-    border: none;
-}
-
 @media (min-width: 768px) {
+    .ready-to-start {
+        height: 14.625rem;
+        width: 48rem;
+    }
+
     .ready-to-start h2 {
-        width: 35.8125rem;
-        height: 7.625rem;
-        flex-shrink: 0;
+        width: 27.8125rem;
         color: #36536B;
         text-align: center;
         font-family: DM Serif Display;
         font-size: 3rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 3.5rem;
+        line-height: 3.5rem; /* 116.667% */
         letter-spacing: -0.02306rem;
     }
 
@@ -136,6 +119,7 @@ header form .btn-demo:hover {
         font-weight: 400;
         line-height: 3.5rem; /* 116.667% */
         letter-spacing: -0.02306rem;
+        margin-left: -3rem;
     }
 
     .ready-to-start .btn-demo {
@@ -161,31 +145,41 @@ header form .btn-demo:hover {
 
 @media (min-width: 1440px) {
     .ready-to-start {
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: center;
         width: 90rem;
-        height: 35.938rem;
+        height: 9.25rem;
         gap: 12.875rem;
-        margin: -0.938rem auto;
+        margin: 0 auto;
     }
 
     .ready-to-start h2 {
-        width: 34.125rem;
-        height: 15.1875rem;
+        width: 27.8125rem;
         color: #36536B;
         font-family: DM Serif Display;
-        font-size: 4.5rem;
+        font-size: 3rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 4.5rem; /* 100% */
-        letter-spacing: -0.03463rem;
-        text-align: left;
+        line-height: 3.5rem; /* 116.667% */
+        letter-spacing: -0.02306rem;
+        padding-left: 2.95rem;
     }
 
-    .ready-to-start {
+    .ready-to-start .input-container {
         width: 27.8125rem;
         height: 3rem;
         flex-shrink: 0;
-        align-items: start;
+        display: flex;
+        flex-direction: row;
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.5rem; /* 116.667% */
+        letter-spacing: -0.02306rem;
+        margin-left: 7rem;
+        margin-bottom: 2.438rem;
     }
 }

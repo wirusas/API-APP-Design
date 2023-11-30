@@ -184,23 +184,23 @@ header p a {
 }
 
 @media (min-width: 1440px) {
-    header{
+    header {
         flex-direction: row-reverse;
         justify-content: center;
         width: 90rem;
         height: 35.938rem;
-        gap: 12.875rem;
-        margin: -0.938rem auto;
+        gap: 14rem;
+        margin: 0 auto;
     }
 
     header img {
         width: 16.10306rem;
         height: 31.17881rem;
         flex-shrink: 0;
-        margin-top: 4.625rem;
+        margin-left: 2rem;
     }
 
-    header h1{
+    header h1 {
         width: 34.125rem;
         height: 15.1875rem;
         color: #36536B;
@@ -213,14 +213,15 @@ header p a {
         text-align: left;
     }
 
-    header form{
+    header form {
         width: 27.8125rem;
         height: 3rem;
         flex-shrink: 0;
         align-items: start;
+        margin-right: 4rem;
     }
 
-    header form p{
+    header form p {
         margin-left: 1.5rem;
     }
 
