@@ -120,7 +120,7 @@
     /* MAIN */
   
     /* HOME PAGE MAIN CONTENT 1 */  
-    body {
+    .about-section-container {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
