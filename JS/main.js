@@ -34,6 +34,15 @@ function hide() {
 close_menu.addEventListener("click", hide);
 
 // HERE PLACE YOUR CODE FOR FORM
+let inputEmailReady = document.querySelector(".email-input-2");
+let formReady = document.querySelector(".ready-to-start");
+
+formReady.addEventListener("submit", function () {
+  if (inputEmailReady) {
+    alert("Pavyko!!!!");
+  } else {
+    alert("Veskite dar karta...");
+  }
+});
 
 // HERE PLACE YOUR EXTRE CODES AND NAME THEM PROPERLY
-
