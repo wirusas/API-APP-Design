@@ -3,279 +3,259 @@
 
 /*SETTINGS RESET*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /*VARIABLES*/
-  
-  :root {
-    /*PRIMARY COLORS*/
-    --dark-pink: #ba4270;
-    --link-water-white: #fbfcfe;
-    /*SECONDARY COLORS*/
-    --charm-pink-actives: #da6d97;
-    --suan-juan-blue: #36536b;
-    --light-suan-juan-blue: #6c8294;
-    --mirage-blue: #1b262f;
-  }
-  
-  /*TYPOGRAPHY to use copy and paste where needed
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*VARIABLES*/
+
+:root {
+  /*PRIMARY COLORS*/
+  --dark-pink: #ba4270;
+  --link-water-white: #fbfcfe;
+  /*SECONDARY COLORS*/
+  --charm-pink-actives: #da6d97;
+  --suan-juan-blue: #36536b;
+  --light-suan-juan-blue: #6c8294;
+  --mirage-blue: #1b262f;
+}
+
+/*TYPOGRAPHY to use copy and paste where needed
   
   font-family: 'DM Serif Display', serif;
   font-family: 'Public Sans', sans-serif;
   
   */
-  
-  
-  /* <<<<<<            MAIN PAGE          >>>>> */
-  
-  
+
+/* <<<<<<            MAIN PAGE          >>>>> */
+
+/* BODY */
+
+body {
+  /*BODY BACKGROUND*/
+  background-color: #edf3f8;
+  width: 23.438rem;
+  background-image: url("../IMG/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: right 50% top -34.283rem;
+  background-size: 48.75rem 48.75rem;
+  margin: 0;
+}
+
+/* HEADER */
+
+/* NAV */
+
+/* MAIN */
+
+/* HOME PAGE MAIN CONTENT 1 */
+
+/* HOME PAGE MAIN CONTENT 2 */
+
+/* READY TO START LINE BEFORE FOOTER */
+
+/* FOOTER */
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+/* >768px */
+
+@media (min-width: 768px) {
   /* BODY */
-  
   body {
     /*BODY BACKGROUND*/
-    background-color: #edf3f8;
-    width: 23.438rem;
-    background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
-    background-repeat: no-repeat;
-    background-position: right 50% top -34.283rem;
-    background-size: 48.75rem 48.75rem;
-    margin: 0;
+    width: 48rem;
+    background-image: url("../IMG/shared/desktop/bg-pattern-circle.svg");
+    background-position: right 50% top -41rem;
+    background-size: 59.3rem 59.3rem;
+    margin: 0 auto;
   }
-  
+
   /* HEADER */
-  
-  
-  
+
   /* NAV */
-  
+
   /* MAIN */
-  
+
   /* HOME PAGE MAIN CONTENT 1 */
-  
+
   /* HOME PAGE MAIN CONTENT 2 */
-  
+
   /* READY TO START LINE BEFORE FOOTER */
-  
+
   /* FOOTER */
-  
-  
-  
-  
-  /* MEDIA QUERIES */
-  /* MEDIA QUERIES */
-  
-  /* >768px */
-  
-  @media (min-width: 768px) {
-  
-    /* BODY */
-    body {
-        /*BODY BACKGROUND*/
-        width: 48rem;
-        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
-        background-position: right 50% top -41rem;
-        background-size: 59.3rem 59.3rem;
-        margin: 0 auto;
-    }
-  
-    /* HEADER */
-  
-  
-    /* NAV */
-  
-    /* MAIN */
-  
-    /* HOME PAGE MAIN CONTENT 1 */
-  
-    /* HOME PAGE MAIN CONTENT 2 */
-  
-    /* READY TO START LINE BEFORE FOOTER */
-  
-    /* FOOTER */
-  
-  
-  }
-  
-  /* >1440px */
-  
-  
-    /* BODY */
-    body {
-        /*BODY BACKGROUND*/
-        width: 100%;
-     
-     
-      
-        margin: 0 auto;
-    }
-  
-    /* HEADER */
-  
-  
-    /* NAV */
-  
-    /* MAIN */
-  
-    /* HOME PAGE MAIN CONTENT 1 */  
-    .about-section-container {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-  }
-  
-  :root {
-      --mirageBlue: #1b262f;
-      --linkWaterWhite: #fbfcfe;
-  }
-  
+}
+
+/* >1440px */
+
+/* BODY */
+body {
+  /*BODY BACKGROUND*/
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+/* NAV */
+
+/* MAIN */
+
+/* HOME PAGE MAIN CONTENT 1 */
+.about-section-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mirageBlue: #1b262f;
+  --linkWaterWhite: #fbfcfe;
+}
+
+.about-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("about_circle.svg");
+  background-repeat: no-repeat;
+  background-color: var(--mirageBlue);
+  padding: 4.5rem 0;
+}
+
+@media (min-width: 768px) {
   .about-section-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url('about_circle.svg');
-      background-repeat: no-repeat;
-      background-color: var(--mirageBlue);
-      padding: 4.5rem 0;
+    background-image: url("about_circle_mobile.svg");
+    background-size: contain;
   }
-  
-  
-  @media (min-width: 768px) {
-      .about-section-container {
-          background-image: url('about_circle_mobile.svg');
-          background-size: contain;
-      }
-      
-  }
-  @media (min-width:1024px){
-      .about-section-container {
-  background-position: -500px !important;
-      }
-  }
-  
-  
+}
+@media (min-width: 1024px) {
   .about-section-container {
-      display: flex;
-      width: 100%;
-      align-items: center;
-      gap: 5rem;
+    background-position: -500px !important;
   }
-  
-  @media (min-width: 1440px) {
-      .about-content-container {
-          display: flex;
-          flex-direction: column-reverse;
-          justify-content: center;
-          gap: 0;
-      }
+}
+
+.about-section-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5rem;
+}
+
+@media (min-width: 1440px) {
+  .about-content-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 0;
   }
-  @media (max-width:1024px){
-      .about-section-container{
-          flex-direction: column-reverse !important;
-      }
-      .about-section-container div{
-          width: 90% !important;
-      }
-  }
-  @media (max-width:510px){
-      .about-partners img{width: 100% !important;}
-  }
+}
+@media (max-width: 1024px) {
   .about-section-container {
-      background-image: url(about_circle_mobile.svg);
-      background-size: contain;
+    flex-direction: column-reverse !important;
   }
-  
   .about-section-container div {
-      font-size: 2.1875rem;
-      margin-bottom: 1.25rem;
-      min-width: 50%;
+    width: 90% !important;
   }
-  
-  .about-section-container div {
-      width: 50%;
-      font-size: 2.1875rem;
-      margin-bottom: 1.25rem;
-      min-width: 12.5rem;
+}
+@media (max-width: 510px) {
+  .about-partners img {
+    width: 100% !important;
   }
-  
-  .about-section-container h1 {
-      color: var(--linkWaterWhite);
-      font-size: 3rem;
-      line-height: 3.5rem;
-      font-family: dmSerifRegular;
-  }
-  
-  .about-section-container p {
-      font-size: 0.875rem;
-      text-align: left;
-      line-height: 1.75rem;
-      color: var(--linkWaterWhite);
-      font-weight: 400;
-      font-family: publicSans;
-      opacity: 0.7;
-  }
-  .about-partners {
-      display: grid;
-      padding-bottom: 2.625rem;
-      grid-template-columns: repeat(3, 1fr);
-      place-items: center;
-      gap: 1.875rem;
-  }
-  
-  
-  button.about {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-color: #ffffff;
-      border: 0.125rem;
-      width: 150px;
-      height: 3rem;
-      background-color: var(--mirageBlue);
-      color: white;
-      padding: 1.25rem 2.5rem;
-      border-radius: 2.5rem;
-      cursor: pointer;
-      margin-top: 1.875rem;
-      border: 1px solid #fff;
-      font-weight: bold;
-  }
-  
-  button.about:hover {
-      border: 2px;
-      background-color: white;
-      color: black;
-      padding: 1.25rem 2.5rem;
-      border-radius: 2.5rem;
-      cursor: pointer;
-      margin-top: 1.875rem;
-      border: 0.0625rem solid #fff;
-      font-weight: bold;
-  }
-  
-  .cutout-circle {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 18.75rem;
-      height: 18.75rem;
-      border-radius: 50%;
-      background-color: #3498db17;
-      color: #fff;
-      position: absolute;
-  }
-    
-  
-    /* HOME PAGE MAIN CONTENT 2 */
-  
-    /* READY TO START LINE BEFORE FOOTER */
-  
-    /* FOOTER */
-  
-  
-  /* <<<<<<            PRICING PAGE          >>>>> */
-  /* <<<<<<            ABOUT PAGE          >>>>> */
-  /* <<<<<<            CONTACTS PAGE          >>>>> */
-  
+}
+.about-section-container {
+  background-image: url(about_circle_mobile.svg);
+  background-size: contain;
+}
+
+.about-section-container div {
+  font-size: 2.1875rem;
+  margin-bottom: 1.25rem;
+  min-width: 50%;
+}
+
+.about-section-container div {
+  width: 50%;
+  font-size: 2.1875rem;
+  margin-bottom: 1.25rem;
+  min-width: 12.5rem;
+}
+
+.about-section-container h1 {
+  color: var(--linkWaterWhite);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-family: dmSerifRegular;
+}
+
+.about-section-container p {
+  font-size: 0.875rem;
+  text-align: left;
+  line-height: 1.75rem;
+  color: var(--linkWaterWhite);
+  font-weight: 400;
+  font-family: publicSans;
+  opacity: 0.7;
+}
+.about-partners {
+  display: grid;
+  padding-bottom: 2.625rem;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 1.875rem;
+}
+
+button.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #ffffff;
+  border: 0.125rem;
+  width: 150px;
+  height: 3rem;
+  background-color: var(--mirageBlue);
+  color: white;
+  padding: 1.25rem 2.5rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  margin-top: 1.875rem;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
+button.about:hover {
+  border: 2px;
+  background-color: white;
+  color: black;
+  padding: 1.25rem 2.5rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  margin-top: 1.875rem;
+  border: 0.0625rem solid #fff;
+  font-weight: bold;
+}
+
+.cutout-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18.75rem;
+  height: 18.75rem;
+  border-radius: 50%;
+  background-color: #3498db17;
+  color: #fff;
+  position: absolute;
+}
+
+/* HOME PAGE MAIN CONTENT 2 */
+
+/* READY TO START LINE BEFORE FOOTER */
+
+/* FOOTER */
+
+/* <<<<<<            PRICING PAGE          >>>>> */
+/* <<<<<<            ABOUT PAGE          >>>>> */
+/* <<<<<<            CONTACTS PAGE          >>>>> */
