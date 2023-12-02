@@ -100,7 +100,6 @@ body {
     body {
         /*BODY BACKGROUND*/
         /* width: 89.5rem; */
-        height: 192rem;
         background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg'), url('../IMG/shared/desktop/bg-pattern-circle.svg');
         background-position: right -8.85rem top -10.85rem, right -24.4rem top 103.63rem;
         background-size: 48.8rem 48.8rem;
