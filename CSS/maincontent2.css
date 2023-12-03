@@ -5,16 +5,16 @@
 }
 
 /* For mobile devices */
-@media  screen and  (max-width:767px){
+@media  screen and  (max-width:768px){
     .main-content-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     margin-bottom: 5.875rem;
-    
-    
-    
+
+
+
     }
 
     .first-row{
@@ -23,21 +23,21 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
+
     }
     .photo{
         display: flex;
         flex-direction:column;
         justify-content: center;
-        align-content: center;  
-        
-        
+        align-content: center;
+
+
     }
     .form{
         width: 328px;
         height: 209px;
         flex-shrink: 0;
-        
+
     }
     .Easy-to-implement{
         display: flex;
@@ -53,7 +53,7 @@
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
-        line-height: 28px; 
+        line-height: 28px;
         width:328px;
     }.Easy-to-implement h1{
         color: #36536B;
@@ -62,7 +62,7 @@
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
-        line-height: 36px; 
+        line-height: 36px;
         letter-spacing: -0.277px;
         width:327px;
         margin-bottom: 24px;
@@ -74,30 +74,30 @@
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        
-        
+
+
     }
     .mobile-photo-1{
         width: 328px;
         text-align: center;
-        
-        
+
+
     }.mobile-photo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-        
-        
-        
+
+
+
+
     }
     .simple-ui{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .simple-ui h1{
@@ -107,13 +107,13 @@
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
-        line-height: 36px; 
+        line-height: 36px;
         letter-spacing: -0.277px;
         width:327px;
         margin-bottom: 20px;
     }
     .simple-ui p{
-        color: #6C8294;        
+        color: #6C8294;
         text-align: center;
         font-family: 'Public Sans';
         font-size: 15px;
@@ -128,7 +128,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
     .Personal-finances{
         display: flex;
@@ -136,7 +136,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        
+
     }
     .personal-photo{
         text-align: center;
@@ -150,8 +150,8 @@
         justify-content: center;
         text-align: center;
         width: 328px;
-        
-        
+
+
     }
     .Personal-finances h3 {
         color: #36536B;
@@ -160,11 +160,11 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:328px;
         margin-bottom: 10px;
-        
+
     }
     .Personal-finances p{
         color: #6C8294;
@@ -205,7 +205,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:328px;
         margin-bottom: 10px;
@@ -249,7 +249,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:328px;
         margin-bottom: 10px;
@@ -274,33 +274,33 @@
         justify-content: center;
         width: 100%;
         margin-bottom: 12.75rem;
-        
-        
-        
-        
+
+
+
+
     }
-    
+
         .first-row{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        
-        
+
+
     }
         .photo{
             display: flex;
             flex-direction:column;
             justify-content: center;
-            align-content: center;  
-            
-            
+            align-content: center;
+
+
     }
         .form{
             width: 391.725px;
             flex-shrink: 0;
-            
+
     }
         .Easy-to-implement{
             display: flex;
@@ -316,7 +316,7 @@
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
-            line-height: 28px; 
+            line-height: 28px;
             width:573px;
     }.Easy-to-implement h1{
             color: #36536B;
@@ -325,44 +325,44 @@
             font-size: 36px;
             font-style: normal;
             font-weight: 400;
-            line-height: 36px; 
+            line-height: 36px;
             letter-spacing: -0.277px;
             width:573px;
             margin-bottom: 24px;
     }
-    
+
         .second-row{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             margin-top: 50px;
-            
-            
+
+
     }
         .mobile-photo-1{
             width: 391.725px;
             flex-shrink: 0;
-            
-            
+
+
     }.mobile-photo{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            
-            
-            
-            
+
+
+
+
     }
         .simple-ui{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            
+
     }
-    
+
         .simple-ui h1{
             color: #36536B;
             text-align: center;
@@ -370,13 +370,13 @@
             font-size: 36px;
             font-style: normal;
             font-weight: 400;
-            line-height: 36px; 
+            line-height: 36px;
             letter-spacing: -0.277px;
             width:573px;
             margin-bottom: 20px;
     }
         .simple-ui p{
-            color: #6C8294;        
+            color: #6C8294;
             text-align: center;
             font-family: 'Public Sans';
             font-size: 15px;
@@ -390,10 +390,10 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
-        
-        
-        
+
+
+
+
     }
     .Personal-finances{
         display: flex;
@@ -401,7 +401,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        
+
     }
     .personal-photo{
         text-align: center;
@@ -414,9 +414,9 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        
-        
-        
+
+
+
     }
     .Personal-finances h3 {
         color: #36536B;
@@ -425,11 +425,11 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:223px;
         margin-bottom: 10px;
-        
+
     }
     .Personal-finances p{
         color: #6C8294;
@@ -461,7 +461,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        
+
     }
     .Banking-Coverage h3 {
         color: #36536B;
@@ -470,7 +470,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:223px;
         margin-bottom: 10px;
@@ -505,7 +505,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        
+
     }
     .Consumer-Payments h3 {
         color: #36536B;
@@ -514,7 +514,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:223px;
         margin-bottom: 10px;
@@ -549,7 +549,7 @@
         justify-content: space-evenly;
         align-items: center;
         margin-top: 50px;
-        
+
     }
 
     .photo{
@@ -557,14 +557,14 @@
         flex-direction:column;
         justify-content: center;
         align-content: center;
-        width: 445px;  
-        
-        
+        width: 445px;
+
+
     }
     .form{
         width: 445px;
         flex-shrink: 0;
-        
+
     }
     .Easy-to-implement{
         display: flex;
@@ -580,7 +580,7 @@
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
-        line-height: 28px; 
+        line-height: 28px;
         width:445px;
     }.Easy-to-implement h1{
         color: #36536B;
@@ -589,7 +589,7 @@
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
-        line-height: 56px; 
+        line-height: 56px;
         letter-spacing: -0.369px;
         width:445px;
         margin-bottom: 48px;
@@ -600,31 +600,31 @@
         justify-content: space-evenly;
         align-items: center;
         margin-top: 50px;
-        
-        
+
+
     }
     .mobile-photo-1{
         width: 445px;
         flex-shrink: 0;
-        
-        
+
+
     }.mobile-photo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 445px;
-        
-        
-        
-        
+
+
+
+
     }
     .simple-ui{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .simple-ui h1{
@@ -634,13 +634,13 @@
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
-        line-height: 56px; 
+        line-height: 56px;
         letter-spacing: -0.369px;
         width:445px;
         margin-bottom: 20px;
     }
     .simple-ui p{
-        color: #6C8294;        
+        color: #6C8294;
         text-align: center;
         font-family: 'Public Sans';
         font-size: 15px;
@@ -654,8 +654,8 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        
-        
+
+
     }
     .Personal-finances{
         display: flex;
@@ -663,7 +663,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        
+
     }
     .personal-photo{
         text-align: center;
@@ -677,9 +677,9 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        
-        
-        
+
+
+
     }
     .Personal-finances h3 {
         color: #36536B;
@@ -688,11 +688,11 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:350px;
         margin-bottom: 10px;
-        
+
     }
     .Personal-finances p{
         color: #6C8294;
@@ -725,7 +725,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        
+
     }
     .Banking-Coverage h3 {
         color: #36536B;
@@ -734,7 +734,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:350px;
         margin-bottom: 10px;
@@ -770,7 +770,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        
+
     }
     .Consumer-Payments h3 {
         color: #36536B;
@@ -779,7 +779,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px; 
+        line-height: 25px;
         letter-spacing: -0.138px;
         width:350px;
         margin-bottom: 10px;
