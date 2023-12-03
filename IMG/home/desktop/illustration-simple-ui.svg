@@ -1,4 +1,4 @@
-<svg width="722" height="660" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="565" height="501" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <filter x="-41.7%" y="-21.5%" width="202.9%" height="153.1%" filterUnits="objectBoundingBox" id="a">
             <feOffset dx="25" dy="25" in="SourceAlpha" result="shadowOffsetOuter1"/>
@@ -111,47 +111,49 @@
         </linearGradient>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <g transform="translate(356 55)">
-            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
-            <use fill="#213648" xlink:href="#b"/>
-        </g>
-        <path d="M225.18 0H32.356C23.352.549 15.05 4.657 7.447 12.324c4.89-4.268 13.61-9.98 25.14-9.98h192.362c11.53 0 20.25 5.712 25.14 9.98C242.486 4.657 234.183.549 225.18 0z"
-              fill-opacity=".65" fill="url(#c)" opacity=".596" transform="translate(358.568 55)"/>
-        <path d="M252.431 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z"
-              fill="url(#d)" opacity=".75" transform="translate(358.568 55)"/>
-        <path d="M8.548 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z"
-              fill="url(#e)" opacity=".75" transform="matrix(-1 0 0 1 372.22 55)"/>
-        <g fill="#2E423C">
-            <path d="M358 156.556h.965a2 2 0 012 2v60.351a2 2 0 01-2 2H358a2 2 0 01-2-2v-60.35a2 2 0 012-2zM615.535 209.043h.965a2 2 0 012 2v42.95a2 2 0 01-2 2h-.965a2 2 0 01-2-2v-42.95a2 2 0 012-2z"/>
-        </g>
-        <g transform="translate(371.074 67.444)">
-            <use fill="#36536B" xlink:href="#f"/>
-        </g>
-        <g>
-            <g transform="translate(399 197)">
-                <use fill="#000" filter="url(#g)" xlink:href="#h"/>
-                <use fill="#FBFCFE" xlink:href="#h"/>
+        <g id="right-phone" transform="translate(-53 -55)">
+            <g transform="translate(356 55)">
+                <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+                <use fill="#213648" xlink:href="#b"/>
             </g>
-            <text font-family="PublicSans-Thin_Medium, Public Sans" font-size="13" font-style="condensed"
-                  font-weight="400" letter-spacing="-.1" fill="#36536B" transform="translate(413 233)">
-                <tspan x="18.222" y="80">Payment of</tspan>
-                <tspan x="88.749" y="80" font-family="PublicSans-Bold, Public Sans" font-weight="bold">$9204</tspan>
-                <tspan x="23.736" y="98">is completed and</tspan>
-                <tspan x="4.676" y="116">processed successfully</tspan>
-            </text>
-            <g transform="translate(458 233)">
-                <circle fill="#BA4270" opacity=".25" cx="28" cy="28" r="28"/>
-                <path stroke="#BA4270" stroke-width="3" d="M19 29.696l4.577 4.577L36.85 21"/>
+            <path d="M225.18 0H32.356C23.352.549 15.05 4.657 7.447 12.324c4.89-4.268 13.61-9.98 25.14-9.98h192.362c11.53 0 20.25 5.712 25.14 9.98C242.486 4.657 234.183.549 225.18 0z"
+                  fill-opacity=".65" fill="url(#c)" opacity=".596" transform="translate(358.568 55)"/>
+            <path d="M252.431 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z"
+                  fill="url(#d)" opacity=".75" transform="translate(358.568 55)"/>
+            <path d="M8.548 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z"
+                  fill="url(#e)" opacity=".75" transform="matrix(-1 0 0 1 372.22 55)"/>
+            <g fill="#2E423C">
+                <path d="M358 156.556h.965a2 2 0 012 2v60.351a2 2 0 01-2 2H358a2 2 0 01-2-2v-60.35a2 2 0 012-2zM615.535 209.043h.965a2 2 0 012 2v42.95a2 2 0 01-2 2h-.965a2 2 0 01-2-2v-42.95a2 2 0 012-2z"/>
             </g>
-            <g transform="translate(422 373)">
-                <rect fill="#BA4270" width="131" height="30" rx="15"/>
-                <text font-family="PublicSans-Bold, Public Sans" font-size="11" font-weight="bold"
-                      letter-spacing="-.085" fill="#FBFCFE">
-                    <tspan x="45.726" y="19">Dismiss</tspan>
+            <g transform="translate(371.074 67.444)">
+                <use fill="#36536B" xlink:href="#f"/>
+            </g>
+            <g>
+                <g transform="translate(399 197)">
+                    <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+                    <use fill="#FBFCFE" xlink:href="#h"/>
+                </g>
+                <text font-family="PublicSans-Thin_Medium, Public Sans" font-size="13" font-style="condensed"
+                      font-weight="400" letter-spacing="-.1" fill="#36536B" transform="translate(413 233)">
+                    <tspan x="18.222" y="80">Payment of</tspan>
+                    <tspan x="88.749" y="80" font-family="PublicSans-Bold, Public Sans" font-weight="bold">$9204</tspan>
+                    <tspan x="23.736" y="98">is completed and</tspan>
+                    <tspan x="4.676" y="116">processed successfully</tspan>
                 </text>
+                <g transform="translate(458 233)">
+                    <circle fill="#BA4270" opacity=".25" cx="28" cy="28" r="28"/>
+                    <path stroke="#BA4270" stroke-width="3" d="M19 29.696l4.577 4.577L36.85 21"/>
+                </g>
+                <g transform="translate(422 373)">
+                    <rect fill="#BA4270" width="131" height="30" rx="15"/>
+                    <text font-family="PublicSans-Bold, Public Sans" font-size="11" font-weight="bold"
+                          letter-spacing="-.085" fill="#FBFCFE">
+                        <tspan x="45.726" y="19">Dismiss</tspan>
+                    </text>
+                </g>
             </g>
         </g>
-        <g>
+        <g id="left-phone" transform="translate(-53 -55)">
             <g transform="translate(53 55)">
                 <use fill="#000" filter="url(#i)" xlink:href="#j"/>
                 <use fill="#213648" xlink:href="#j"/>
