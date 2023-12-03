@@ -103,6 +103,7 @@
         font-weight: 400;
         line-height: 3.5rem; /* 116.667% */
         letter-spacing: -0.02306rem;
+        margin-left: 2.725rem;
     }
 
     .ready-to-start .input-container {
@@ -159,9 +160,8 @@
         font-size: 3rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 3.5rem; /* 116.667% */
+        line-height: 3.5rem;
         letter-spacing: -0.02306rem;
-        margin: 0;
     }
 
     .ready-to-start .input-container {
