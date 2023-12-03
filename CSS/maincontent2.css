@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* For mobile devices */
 @media screen and  (max-width: 768px) {
     .main-content-2 {
@@ -27,15 +21,12 @@
         flex-direction: column;
         justify-content: center;
         align-content: center;
-
-
     }
 
     .form {
         width: 328px;
         height: 209px;
         flex-shrink: 0;
-
     }
 
     .Easy-to-implement {
@@ -54,7 +45,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
-        width: 328px;
+        width: 21rem;
     }
 
     .Easy-to-implement h1 {
@@ -559,7 +550,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        margin:9.375rem auto 0;
+        margin: 9.375rem auto 0;
         gap: 5.75rem;
     }
 
@@ -612,7 +603,7 @@
         flex-direction: row-reverse;
         justify-content: space-evenly;
         align-items: center;
-        margin:50px auto;
+        margin: 50px auto;
         gap: 5.75rem;
     }
 
