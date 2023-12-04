@@ -1,7 +1,12 @@
 /* READ ME */
 /* Place your part at the dedicated part, all parts are named same as in html  */
 
-
+/*SETTINGS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 /*VARIABLES*/
