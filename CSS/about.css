@@ -4,3 +4,256 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width:768px){
+    .main-content-2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .title-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom:40px ;
+    }
+    .title-about h1{
+        width: 327px;
+        flex-shrink: 0;
+        color: #36536B;
+        text-align: center;
+        font-family: 'DM Serif Display';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; /* 112.5% */
+        letter-spacing: -0.246px;
+    }
+    .first-row-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .Vision{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .Vision h1{
+        width:255px;
+        text-align: center;
+        color: #36536B;
+        text-align: center;
+        font-family: 'DM Serif Display';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: -0.185px;
+        margin-bottom: 10px;
+    }
+    .Vision p {
+        width: 327px;
+        color: #6C8294;
+        text-align: center;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .second-row-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .Business{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .Business h1{
+        width:255px;
+        text-align: center;
+        color: #36536B;
+        text-align: center;
+        font-family: 'DM Serif Display';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: -0.185px;
+        margin-bottom: 10px;
+    }
+    .Business p{
+        width: 327px;
+        color: #6C8294;
+        text-align: center;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .background-about {
+        background-image: url(../IMG/about/mobile/image-team-members.jpg);
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 50px;
+    }
+    .four-row-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        margin-bottom: 40px;
+        
+        
+       
+    }
+    .four-row-about h1 , p{
+        text-align: center;
+    }
+    .four-row-about p {
+        color: #36536B;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+    }
+
+    .four-row-about h1{
+        color: #BA4270;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px; 
+        letter-spacing: -0.431px;
+
+    }.four-row-about::before,
+    .four-row-about::after {
+      content: "";
+      position: absolute;
+      width: calc(100% - 20px); /* Skersmuo be margin */
+      border-top: 1px solid rgba(54, 83, 107, 0.25); /* Viršutinė linija su opacity */
+      border-bottom: 1px solid rgba(54, 83, 107, 0.25); /* Apatinė linija su opacity */
+    }
+    
+    /* Apatinės linijos pozicionavimas */
+    .four-row-about::before {
+      top: 0; /* Viršutinė linija */
+    }
+    
+    /* Viršutinės linijos pozicionavimas */
+    .four-row-about::after {
+      bottom: 0; /* Apatinė linija */
+    }.team{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .office{
+        margin-bottom: 30px;
+    }
+    .Transaction{
+        margin-bottom: 20px;
+    }
+
+    .fifth-row-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .Culture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .Culture h1 {
+        color: #36536B;
+        text-align: center;
+        font-family: 'DM Serif Display';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: -0.185px;
+        width: 255px;
+        margin-bottom: 10px;
+    }
+    .Culture p {
+        color: #6C8294;
+        text-align: center;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 186.667% */
+        width: 327px;
+    }
+    .six-row-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .people{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .people h1{
+        color: #36536B;
+        text-align: center;
+        font-family:'DM Serif Display';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: -0.185px;
+        width: 255px;
+        margin-bottom: 10px;
+    }
+    .people p {
+        color: #6C8294;
+        text-align: center;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 186.667% */
+        width: 327px;
+    }
+
+
+
+    
+    
+   
+    
+
+
+
+    
+
+}
