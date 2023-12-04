@@ -1,0 +1,112 @@
+/* READ ME */
+/* Place your part at the dedicated part, all parts are named same as in html  */
+
+
+
+
+/*VARIABLES*/
+
+:root {
+    /*PRIMARY COLORS*/
+    --dark-pink: #ba4270;
+    --link-water-white: #fbfcfe;
+    /*SECONDARY COLORS*/
+    --charm-pink-actives: #da6d97;
+    --suan-juan-blue: #36536b;
+    --light-suan-juan-blue: #6c8294;
+    --mirage-blue: #1b262f;
+}
+
+/*TYPOGRAPHY to use copy and paste where needed
+
+font-family: 'DM Serif Display', serif;
+font-family: 'Public Sans', sans-serif;
+
+*/
+
+
+/* <<<<<<            MAIN PAGE          >>>>> */
+
+
+/* BODY */
+
+body {
+    /*BODY BACKGROUND*/
+
+    background-color: #edf3f8;
+    background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position: right -30.04rem top -40.1rem;
+    background-size: 48.75rem 48.75rem;
+    margin: 0 auto;
+}
+
+
+
+/* MEDIA QUERIES */   /* MEDIA QUERIES */
+
+/* >768px */
+
+@media (min-width: 768px) {
+
+    /* BODY */
+    body {
+        /*BODY BACKGROUND*/
+        /* width: 48rem; */
+        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+        background-position: right -32.29rem top -28.95rem;
+        background-size: 59.3rem 59.3rem;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+
+
+    /* NAV */
+
+    /* MAIN */
+
+    /* HOME PAGE MAIN CONTENT 1 */
+
+    /* HOME PAGE MAIN CONTENT 2 */
+
+    /* READY TO START LINE BEFORE FOOTER */
+
+}
+
+/* >1440px */
+@media (min-width: 1440px) {
+
+    /* BODY */
+    body {
+        /*BODY BACKGROUND*/
+        /* width: 48rem; */
+        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+        background-position: right -8.397rem top -39.797rem;
+        background-size: 59.3rem 59.3rem;
+        
+    }
+}
+
+
+/* HEADER */
+
+
+/* NAV */
+
+/* MAIN */
+
+/* HOME PAGE MAIN CONTENT 1 */
+
+/* HOME PAGE MAIN CONTENT 2 */
+
+/* READY TO START LINE BEFORE FOOTER */
+
+
+}
+
+
+
+/* <<<<<<            PRICING PAGE          >>>>> */
+/* <<<<<<            ABOUT PAGE          >>>>> */
+/* <<<<<<            CONTACTS PAGE          >>>>> */
