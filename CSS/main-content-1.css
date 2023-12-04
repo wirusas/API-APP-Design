@@ -1,0 +1,280 @@
+* {
+    margin : 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content-container{
+    background-color: #1B262F;
+    margin-top: 3rem;
+}
+
+@media  screen and (min-width:768px) and (max-width:1440px) {
+    .main-content-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .manufacturer-logo{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        row-gap: 30px;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 70px;
+        
+    }
+    .first-row-main-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        
+    }
+
+    .second-row-main-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .tesla{
+        width:129px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Microsoft{
+        width: 145px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .hp{
+        width: 140px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Oracle{
+        width: 131px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Google{
+        width: 96px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Nvidia{
+        width: 137px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+
+    .Description-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .Description-column ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+   .Description-column h1{
+        width:457px;
+        color: #FBFCFE;
+        text-align: center;
+        font-family: 'DM Serif Display';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; 
+        letter-spacing: -0.369px;
+        margin-bottom: 24px;
+        
+    }
+    .Description-column p{
+        width:456px;
+        color: #FBFCFE;
+        text-align: center;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        opacity: 0.7;
+        margin-bottom: 24px;
+    }
+    .Description-column a {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        color: #FBFCFE;
+        background-color:#1B262F;
+    }
+    .Description-column button{
+        border-radius: 24px;
+        border: 1px solid #FBFCFE;
+        background-color: #1B262F;
+        width: 129px;
+        height: 48px;
+        flex-shrink: 0;
+
+    }
+    .Description-column button:hover,
+    .Description-column a:hover {
+        background-color: #FBFCFE;
+        color:#1B262F;
+        
+    }
+   
+}
+@media screen and (min-width: 1440px){
+    .main-content-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        
+    }
+    .Description-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+    .Description-column ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+   }
+   .Description-column h1{
+        width:445px;
+        color: #FBFCFE;
+        font-family: 'DM Serif Display';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; 
+        letter-spacing: -0.369px;
+        margin-bottom: 24px;
+    
+    }
+    .Description-column p{
+        width:445px;
+        color: #FBFCFE;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        opacity: 0.7;
+        margin-bottom: 24px;
+    }
+    .Description-column a {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        color: #FBFCFE;
+        background-color:#1B262F;
+    }
+    .Description-column button{
+        border-radius: 24px;
+        border: 1px solid #FBFCFE;
+        background-color: #1B262F;
+        width: 129px;
+        height: 48px;
+        flex-shrink: 0;
+
+    }
+    .Description-column button:hover,
+    .Description-column a:hover {
+        background-color: #FBFCFE;
+        color:#1B262F;
+        
+    }
+    .manufacturer-logo{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        row-gap: 30px;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 150px;
+        
+    }
+    .first-row-main-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        
+    }
+
+    .second-row-main-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .tesla{
+        width:129px;
+        height: 17px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Microsoft{
+        width: 145px;
+        height: 31px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .hp{
+        width: 140px;
+        height: 27px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Oracle{
+        width: 131px;
+        height: 17px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Google{
+        width: 96px;
+        height: 33px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    .Nvidia{
+        width: 137px;
+        height: 26px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+
+
+
+
+}
+
