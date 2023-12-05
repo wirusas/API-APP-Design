@@ -178,7 +178,7 @@
 
     .who-we-work-with{
         margin: 0 auto;
-        width: 27rem;
+        width: 29rem;
     }
 
     .who-we-work-with h2{
@@ -203,7 +203,7 @@
     .logo-container{
         width: 33rem;
         position: absolute;
-        right: 8%;
+        right: 15%;
         top: 34%;
         gap: 2rem;
         margin: 0 auto;
