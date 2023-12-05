@@ -15,7 +15,9 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-bottom:40px ;
+        margin-bottom:40px;
+        
+        
     }
     .title-about h1{
         width: 327px;
@@ -28,19 +30,23 @@
         font-weight: 400;
         line-height: 36px; /* 112.5% */
         letter-spacing: -0.246px;
+        margin-left: 24px;
+        margin-right: 24px;
+        
     }
     .first-row-about{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 48px;
     }
     .Vision{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
+        
     }
     .Vision h1{
         width:255px;
@@ -53,7 +59,9 @@
         font-weight: 400;
         line-height: 32px; /* 133.333% */
         letter-spacing: -0.185px;
-        margin-bottom: 10px;
+        margin-bottom: 16px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .Vision p {
         width: 327px;
@@ -64,13 +72,15 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
     .second-row-about{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 76px;
     }
     .Business{
         display: flex;
@@ -89,7 +99,9 @@
         font-weight: 400;
         line-height: 32px; /* 133.333% */
         letter-spacing: -0.185px;
-        margin-bottom: 10px;
+        margin-bottom: 16px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .Business p{
         width: 327px;
@@ -100,6 +112,8 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
     
     .background-about {
@@ -108,7 +122,7 @@
         height: 300px;
         background-size: cover;
         background-position: center;
-        margin-bottom: 50px;
+        margin-bottom: 65px;
     }
     .four-row-about{
         display: flex;
@@ -117,7 +131,7 @@
         align-items: center;
         width: 100%;
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 48px;
         
         
        
@@ -134,6 +148,8 @@
         font-weight: 400;
         line-height: 28px;
         opacity: 0.7;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     .four-row-about h1{
@@ -145,6 +161,8 @@
         font-weight: 400;
         line-height: 72px; 
         letter-spacing: -0.431px;
+        margin-left: 24px;
+        margin-right: 24px;
 
     }.four-row-about::before,
     .four-row-about::after {
@@ -164,14 +182,14 @@
     .four-row-about::after {
       bottom: 0; /* Apatinė linija */
     }.team{
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin-top: 16px;
+        margin-bottom: 32px;
     }
     .office{
-        margin-bottom: 30px;
+        margin-bottom: 32px;
     }
     .Transaction{
-        margin-bottom: 20px;
+        margin-bottom: 16px;
     }
 
     .fifth-row-about{
@@ -179,7 +197,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 48px;
     }
     .Culture{
         display: flex;
@@ -197,7 +215,9 @@
         line-height: 32px; /* 133.333% */
         letter-spacing: -0.185px;
         width: 255px;
-        margin-bottom: 10px;
+        margin-bottom: 16px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .Culture p {
         color: #6C8294;
@@ -208,13 +228,15 @@
         font-weight: 400;
         line-height: 28px; /* 186.667% */
         width: 327px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
     .six-row-about{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 48px;
     }
     .people{
         display: flex;
@@ -232,7 +254,12 @@
         line-height: 32px; /* 133.333% */
         letter-spacing: -0.185px;
         width: 255px;
-        margin-bottom: 10px;
+        margin-bottom: 16px;
+        margin-left: 60px;
+        margin-right: 60px;
+      
+        
+
     }
     .people p {
         color: #6C8294;
@@ -243,6 +270,8 @@
         font-weight: 400;
         line-height: 28px; /* 186.667% */
         width: 327px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
 }
