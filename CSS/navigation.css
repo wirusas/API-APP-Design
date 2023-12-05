@@ -21,6 +21,7 @@ body {
         width: 68.75rem;
         height: 3rem;
         margin: 0.938rem auto;
+        margin-bottom: 82px;
     }
 
     .logo-list {
@@ -121,6 +122,7 @@ body {
         height: 2.375rem;
         margin: 0.938rem auto;
         margin-top: 1.5rem;
+        margin-bottom: 80px;
 
 
 
@@ -262,7 +264,7 @@ body {
         justify-content: space-between;
         align-items: center;
         margin-top: 1.6rem;
-        margin-bottom: 2rem;
+        margin-bottom: 48px;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
 
