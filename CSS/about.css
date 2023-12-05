@@ -191,6 +191,9 @@
     .Transaction{
         margin-bottom: 16px;
     }
+    .team img , .office img, .Transaction img {
+        display: none;
+    }
 
     .fifth-row-about{
         display: flex;
@@ -285,11 +288,10 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-bottom:40px ;
+        margin-bottom:54px ;
     }
     .title-about h1{
         width: 573px;
-        flex-shrink: 0;
         color: #36536B;
         text-align: center;
         font-family: 'DM Serif Display';
@@ -298,12 +300,14 @@
         font-weight: 400;
         line-height: 56px; /* 112.5% */
         letter-spacing: -0.369px;
+        margin-left: 97px;
+        margin-right: 98px;
     }
     .first-row-about{
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 64px;
     }
     .Vision{
         display: flex;
@@ -319,6 +323,9 @@
         line-height: 40px; /* 125% */
         letter-spacing: -0.246px;
         width: 223px;
+        margin-left: 39px;
+        text-align: left;
+       
     }
     .Vision p {
         color: #6C8294;
@@ -328,12 +335,14 @@
         font-weight: 400;
         line-height: 28px; /* 186.667% */
         width: 456px;
+        margin-right: 40px;
+        text-align: left;
     }
     .second-row-about {
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 64px;
     }
     .Business{
         display: flex;
@@ -348,6 +357,8 @@
         line-height: 40px; /* 125% */
         letter-spacing: -0.246px;
         width: 223px;
+        margin-left: 39px;
+        text-align: left;
     }
     .Business p{
         color: #6C8294;
@@ -357,14 +368,16 @@
         font-weight: 400;
         line-height: 28px; /* 186.667% */
         width: 456px;
+        margin-right: 40px;
+        text-align: left;
     }
     .background-about {
         background-image: url(../IMG/about/tablet/image-team-members.jpg);
         width: 100%;
-        height: 513px;
+        height: 250px;
         background-size: cover;
         background-position: center;
-        margin-bottom: 50px;
+        margin-bottom: 64px;
     }
     .four-row-about{
         display: flex;
@@ -372,8 +385,9 @@
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        position: relative;
-        margin-bottom: 50px;
+        /* position: relative; */
+        margin-bottom: 64px;
+        
         
     
        
@@ -397,32 +411,15 @@
         line-height: 72px; 
         letter-spacing: -0.431px;
         width: 223px;
-        margin-top: 40px;
+        margin-top: 44px;
 
-    }.four-row-about::before,
-    .four-row-about::after {
-      content: "";
-      position: absolute;
-      width: calc(100% - 20px); /* Skersmuo be margin */
-      border-top: 1px solid rgba(54, 83, 107, 0.25); /* Viršutinė linija su opacity */
-      border-bottom: 1px solid rgba(54, 83, 107, 0.25); /* Apatinė linija su opacity */
-    }
-    
-    /* Apatinės linijos pozicionavimas */
-    .four-row-about::before {
-      top: 0; /* Viršutinė linija */
-    }
-    
-    /* Viršutinės linijos pozicionavimas */
-    .four-row-about::after {
-      bottom: 0; /* Apatinė linija */
     }
 
     .fifth-row-about{
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 64px;
 
     }
     .Culture {
@@ -439,6 +436,8 @@
         line-height: 40px; /* 125% */
         letter-spacing: -0.246px;
         width: 223px;
+        margin-left: 39px;
+        text-align: left;
     }
     .Culture p {
         color: #6C8294;
@@ -448,12 +447,14 @@
         font-weight: 400;
         line-height: 28px; /* 186.667% */
         width: 456px;
+        margin-left: 40px;
+        text-align: left;
     }
     .six-row-about {
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 72px;
     }
     .people{
         display: flex;
@@ -470,6 +471,8 @@
         line-height: 40px; /* 125% */
         letter-spacing: -0.246px;
         width: 223px;
+        margin-left: 39px;
+        text-align: left;
     }
     .people p {
         color: #6C8294;
@@ -479,6 +482,8 @@
         font-weight: 400;
         line-height: 28px; /* 186.667% */
         width: 456px;
+        margin-left: 40px;
+        text-align: left;
     }
 
 }
