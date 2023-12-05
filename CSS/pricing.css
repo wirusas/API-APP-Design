@@ -1,0 +1,297 @@
+/* READ ME */
+/* Place your part at the dedicated part, all parts are named same as in html  */
+
+
+/*VARIABLES*/
+
+:root {
+    /*PRIMARY COLORS*/
+    --dark-pink: #ba4270;
+    --link-water-white: #fbfcfe;
+    /*SECONDARY COLORS*/
+    --charm-pink-actives: #da6d97;
+    --suan-juan-blue: #36536b;
+    --light-suan-juan-blue: #6c8294;
+    --mirage-blue: #1b262f;
+}
+
+/*TYPOGRAPHY to use copy and paste where needed
+
+font-family: 'DM Serif Display', serif;
+font-family: 'Public Sans', sans-serif;
+
+*/
+
+
+/* <<<<<<            MAIN PAGE          >>>>> */
+
+.pricing-container-main {
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+.pricing-header {
+    color: var(--suan-juan-blue);
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25rem;
+    letter-spacing: -0.01538rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.plan-heading {
+    color: var(--dark-pink);
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.01156rem;
+    margin-bottom: 5.06rem;
+}
+
+.plan-price {
+    color: var(--suan-juan-blue);
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+
+}
+
+.bottom-line {
+    height: 0.0625rem;
+    background-color: var(--suan-juan-blue);
+    margin: 1.5rem auto;
+}
+
+.plan-features {
+    color: var(--suan-juan-blue);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    list-style: circle;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.plan-features li {
+    list-style-type: none;
+}
+
+
+.checked-feature::before {
+    content: url(../IMG/pricing/check_mark.svg);
+    margin-right: 1.5rem;
+}
+
+.unchecked-feature {
+    opacity: 0.5;
+}
+
+.unchecked-feature::before {
+    content: url(../IMG/pricing/check_mark.svg);
+    margin-right: 1.5rem;
+    opacity: 0%;
+}
+
+
+.plan {
+    text-align: center;
+}
+
+.request-access-button {
+    color: var(--suan-juan-blue);
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+    width: 10.5rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--suan-juan-blue);
+    background-color: #edf3f8;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: block;
+
+
+}
+
+.request-access-button:hover {
+    background-color: var(--suan-juan-blue);
+    color: var(--link-water-white);
+}
+
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+/* >768px */
+
+@media (min-width: 768px) {
+
+    /* MAIN */
+
+    .pricing-container-main {
+        padding-left: 6.5%;
+        padding-right: 6.5%;
+    }
+
+    .request-access-button {
+        margin-bottom: 4.35rem;
+        display: inline-block;
+    }
+
+    .pricing-plans {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 3rem, 1fr;
+        grid-column-gap: 0.63rem;
+        margin: 0 auto;
+
+    }
+
+    .plan {
+        text-align: center;
+
+    }
+
+    .pricing-header {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: -0.02306rem;
+        margin-bottom: 4.31rem;
+        margin-top: 5rem;
+
+    }
+
+    .plan-heading {
+        line-height: 2.5rem;
+        letter-spacing: -0.01156rem;
+        margin-bottom: 0.81rem;
+    }
+
+    .plan-price {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: -0.02306rem;
+
+    }
+
+    .free-plan-extra-info p::after {
+        content: "Build and test using our core set of products with up to 100 API requests";
+        color: #6C8294;
+        font-family: Public Sans;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.75rem;
+        margin-bottom: 1.19rem;
+
+    }
+
+    .free-plan-extra-info {
+        text-align: center;
+        height: 14ch;
+
+    }
+
+    .basic-plan-extra-info p::after {
+        content: "Launch your project with unlimited requests and no contractual minimums";
+        color: #6C8294;
+        font-family: Public Sans;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.75rem;
+
+    }
+
+    .basic-plan-extra-info {
+        text-align: center;
+        height: 14ch;
+    }
+
+    .premium-plan-extra-info p::after {
+        content: "Get tailored solutions, volume pricing, and dedicated support for your team ";
+        color: #6C8294;
+        font-family: Public Sans;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.75rem;
+
+    }
+
+    .premium-plan-extra-info {
+        text-align: center;
+        height: 14ch;
+    }
+}
+
+
+/* >1440px */
+@media (min-width: 1440px) {
+    .pricing-header {
+        font-size: 3.5rem;
+        letter-spacing: -0.02694rem;
+        text-align: left;
+    }
+
+    .plan-heading {
+        text-align: left;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.01538rem;
+    }
+
+    .plan {
+        text-align: left;
+        width: 21.875rem;
+        font-size: 2rem;
+        letter-spacing: -0.01538rem;
+    }
+
+    .free-plan-extra-info {
+        text-align: left;
+        height: 6ch;
+    }
+
+    .basic-plan-extra-info {
+        text-align: left;
+        height: 6ch;
+    }
+
+    .premium-plan-extra-info {
+        text-align: left;
+        height: 6ch;
+    }
+
+    .plan-price {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        letter-spacing: -0.02694rem;
+        text-align: left;
+    }
+
+    .pricing-container-main {
+        padding-left: 11.45%;
+        padding-right: 11.45%;
+    }
+
+}
