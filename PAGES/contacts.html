@@ -59,40 +59,43 @@
     <!-- MAIN -->
     <!-- MAIN HEADING -->
     <main>
+         <header class="contacts-main-heading">
+                    <h1>Submit a help request and
+                        we’ll get in touch shortly.</h1>
+                </header>
                 <!-- MAIN CONTENT -->
         <section class="contacts-main-content">
 
             <!-- SUBMIT FORM -->
 
             <article class="contacts-submit-form">
-                <header class="contacts-main-heading">
-                    <h1>Submit a help request and
-                        we’ll get in touch shortly.</h1>
-                </header>
+               
+                
                 <form action="url" class="contacts-main-form">
                     <label for="user-name">
                         <input type="text" name="user-name" id="user-name" placeholder="Name" required
                             pattern="[A-Z][a-z]{0, 30}">
                     </label>
-                    <div class="form-field-underline"></div>
+                    
                     <label for="user-email">
                         <input type="email" name="user-email" id="user-email" placeholder="Email Address" required
-                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" class="required-input">
                     </label>
-                    <div class="form-field-underline"></div>
+                    <p class="required-note">This field can’t be empty</p>
+                   
                     <label for="company-name">
                         <input type="text" name="company-name" id="company-name" placeholder="Company Name">
                     </label>
-                    <div class="form-field-underline"></div>
+                   
                     <label for="user-title">
                         <input type="text" name="user-title" id="user-title" placeholder="Title">
                     </label>
-                    <div class="form-field-underline"></div>
+                    
                     <label for="contact-message">
                         <textarea name="contact-message" id="contact-message">Message
                         </textarea>
                     </label>
-                    <div class="form-field-underline"></div>
+                    
                     <label class="checkbox-container">
                         <input type="checkbox">
                         <span class="checkmark"></span>Stay up-to-date with company announcements and updates to our API
@@ -179,6 +182,7 @@
     </footer>
 
     <script src="../JS/main.js"></script>
+    <script src="../JS/contacts.js"></script>
 </body>
 
 </html>
