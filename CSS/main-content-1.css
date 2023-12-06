@@ -193,8 +193,9 @@
         background-repeat: no-repeat;
         background-position: left -9.5rem top -22.32rem;
         background-size: 48.8rem 48.8rem;
-        margin: 0 auto;
+        margin: 2rem auto 0;
         height: 33rem;
+        width: 90rem;
     }
 
     .who-we-work-with{
@@ -227,11 +228,11 @@
     }
 
     .logo-container{
-        width: 33rem;
+        width: 27rem;
         position: absolute;
-        right: 12%;
+        right: 13%;
         top: 35%;
-        gap: 1.2rem;
+        gap: 2.65rem;
         margin: 0 auto;
     }
 
@@ -242,28 +243,28 @@
     }
 
     .logo-container-section .tesla{
-        width: 8.0625rem;
+        width: 7rem;
         height: 1.0625rem;
         margin-left: 0.825rem;
     }
 
     .logo-container-section .microsoft{
-        width: 9.0625rem;
+        width: 8rem;
         height: 1.9375rem;
     }
 
     .logo-container-section .oracle{
-        width: 8.1875rem;
+        width: 7rem;
         height: 1.0625rem;
     }
 
     .logo-container-section .nvidia{
-        width: 8.5625rem;
+        width: 7rem;
         height: 1.625rem;
     }
 
     .logo-container-section .hp{
-        width: 8.75rem;
+        width: 7rem;
         height: 1.6875rem;
     }
 
