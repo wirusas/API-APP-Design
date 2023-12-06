@@ -3,7 +3,11 @@
     padding: 2rem 2rem;
     display: grid;
     gap: 4rem;
-    margin-top: 3rem;
+    background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position: right 50% top -37.57rem;
+    background-size: 48.8rem 48.8rem;
+    margin: 0 auto;
 }
 .logo-container{
     display: grid;
@@ -107,6 +111,11 @@
         padding:1rem;
         justify-content: center;
         gap: 0;
+        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+        background-repeat: no-repeat;
+        background-position: right 50% top -34.65rem;
+        background-size: 48.8rem 48.8rem;
+        margin: 0 auto;
     }
     .logo-container{
         grid-template-columns: repeat(3,1fr);
@@ -172,8 +181,12 @@
     .logo-container-section{
         grid-template-columns: repeat(2,1fr);
         position: relative;
-        margin: 2rem auto;
         padding: 2rem;
+        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+        background-repeat: no-repeat;
+        background-position: left -13.5rem top -22.32rem;
+        background-size: 48.8rem 48.8rem;
+        margin: 0 auto;
     }
 
     .who-we-work-with{
