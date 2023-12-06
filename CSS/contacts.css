@@ -1,0 +1,476 @@
+/* READ ME */
+/* Place your part at the dedicated part, all parts are named same as in html  */
+
+
+/*VARIABLES*/
+
+:root {
+    /*PRIMARY COLORS*/
+    --dark-pink: #ba4270;
+    --link-water-white: #fbfcfe;
+    /*SECONDARY COLORS*/
+    --charm-pink-actives: #da6d97;
+    --suan-juan-blue: #36536b;
+    --light-suan-juan-blue: #6c8294;
+    --mirage-blue: #1b262f;
+}
+
+/*TYPOGRAPHY to use copy and paste where needed
+
+font-family: 'DM Serif Display', serif;
+font-family: 'Public Sans', sans-serif;
+
+*/
+
+
+/* MAIN HEADING */
+.contacts-main-heading h1 {
+    color: var(--suan-juan-blue);
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25rem;
+    letter-spacing: -0.01538rem;
+
+}
+
+.contacts-main-heading {
+    margin: 3rem auto 2.5rem auto;
+    text-align: center;
+    width: 20.4375rem;
+
+
+}
+
+/* MAIN CONTENT */
+
+
+
+/* SUBMIT FORM */
+
+.contacts-main-form ::placeholder,
+textarea {
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    /* 166.667% */
+    letter-spacing: -0.00719rem;
+    opacity: 0.5;
+    padding-left: 1.25rem;
+
+}
+
+.contacts-main-form input,
+.contacts-main-form textarea {
+    background-color: #edf3fb;
+    height: 2.625rem;
+    width: 20.4375rem;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding-bottom: 1.06rem;
+
+}
+
+.contacts-main-form textarea {
+    height: 5.625rem;
+    resize: none;
+    overflow: hidden;
+}
+
+.form-field-underline {
+    width: 20.4375rem;
+    height: 0.0625rem;
+    flex-shrink: 0;
+    opacity: 0.5;
+    background: #36536B;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.button-container {
+    display: block;
+    width: 20.4375rem;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.contacts-main-form input[type="submit"] {
+    background-color: #EDF3F8;
+    width: 9.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid #36536B;
+    padding: 0;
+    color: #36536B;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    margin-left: 0;
+}
+
+.contacts-main-form input[type="submit"]:hover {
+    color: #FBFCFE;
+    background: #36536B;
+}
+
+
+
+/* CHECKBOX */
+
+/* Customize the label (the container) */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 3.12rem;
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: 20.4375rem;
+
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    /* 166.667% */
+    letter-spacing: -0.00719rem;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0 auto;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: .85rem;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--suan-juan-blue);
+    opacity: 0.25;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked~.checkmark {
+    background-color: #BA4270;
+    opacity: 1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* CHECKBOX */
+
+
+/* PARTNERS */
+.partners-heading {
+    color: #36536B;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 133.333% */
+    letter-spacing: -0.01156rem;
+    opacity: 0.75;
+    margin: 0 auto;
+    margin-bottom: 2.37rem;
+    width: 20.4375rem;
+
+
+}
+
+.partners-icons img {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(10%) saturate(1856%) hue-rotate(165deg) brightness(92%) contrast(90%);
+
+}
+
+.partners-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 20.4375rem;
+    padding: 0;
+    grid-row-gap: 2.8rem;
+    grid-column-gap: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+.tesla-logo {
+    width: 6.62625rem;
+    height: 0.89113rem;
+    flex-shrink: 0;
+}
+
+.hp-logo {
+    width: 7.18394rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+}
+
+.google-logo {
+    width: 4.934rem;
+    height: 1.6875rem;
+    flex-shrink: 0;
+}
+
+
+.ms-logo {
+    width: 7.44813rem;
+    height: 1.625rem;
+    flex-shrink: 0;
+}
+
+.oracle-logo {
+    width: 6.72206rem;
+    height: 0.86575rem;
+    flex-shrink: 0;
+}
+
+.nvidia-logo {
+    width: 7.04119rem;
+    height: 1.32956rem;
+    flex-shrink: 0;
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+/* >768px */
+
+@media (min-width: 768px) {
+
+    /* MAIN HEADING */
+
+    .contacts-main-heading h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: -0.02306rem;
+
+    }
+
+    .contacts-main-heading {
+        margin: 5rem auto 3.38rem auto;
+        text-align: center;
+        width: 35.8125rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+
+    }
+
+    /* MAIN CONTENT */
+
+
+
+    /* SUBMIT FORM */
+
+    .contacts-main-form input,
+    .contacts-main-form textarea {
+        width: 27.8125rem;
+
+
+    }
+
+    .contacts-main-form textarea {
+        height: 5.625rem;
+        resize: none;
+        overflow: hidden;
+    }
+
+    .form-field-underline {
+        width: 27.8125rem;
+        height: 0.0625rem;
+        flex-shrink: 0;
+        opacity: 0.5;
+        background: #36536B;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .button-container {
+        width: 27.8125rem;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .contacts-main-form input[type="submit"] {
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+        margin-left: 0;
+    }
+
+    .contacts-main-form input[type="submit"]:hover {
+        color: #FBFCFE;
+        background: #36536B;
+    }
+
+    /* CHECKBOX */
+    .checkbox-container {
+        width: 27.8125rem;
+    }
+
+    /* PARTNERS */
+    .partners-heading {
+        margin: 0 auto;
+        margin-bottom: 2.94rem;
+        width: 27.8125rem;
+    }
+
+    .partners-icons img {
+        filter: brightness(0) saturate(100%) invert(30%) sepia(10%) saturate(1856%) hue-rotate(165deg) brightness(92%) contrast(90%);
+
+    }
+
+    .partners-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        width: 33.82rem;
+        padding: 0;
+        grid-row-gap: 2.8rem;
+        grid-column-gap: 4rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .tesla-logo {
+        width: 8.13769rem;
+        height: 1.0625rem;
+        flex-shrink: 0;
+    }
+
+    .hp-logo {
+        width: 8.83163rem;
+        height: 1.6875rem;
+        flex-shrink: 0;
+    }
+
+    .google-logo {
+        width: 6.056rem;
+        height: 2.0625rem;
+        flex-shrink: 0;
+    }
+
+
+    .ms-logo {
+        width: 9.14706rem;
+        height: 1.9375rem;
+        flex-shrink: 0;
+    }
+
+    .oracle-logo {
+        width: 8.26388rem;
+        height: 1.0625rem;
+        flex-shrink: 0;
+    }
+
+    .nvidia-logo {
+        width: 8.64238rem;
+        height: 1.625rem;
+        flex-shrink: 0;
+    }
+
+    /* MEDIA QUERIES */
+    /* MEDIA QUERIES */
+
+
+}
+
+
+/* >1440px */
+@media (min-width: 1440px) {
+
+    /* MAIN HEADING */
+    .contacts-main-heading h1 {
+        text-align: left;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        letter-spacing: -0.02694rem;
+
+    }
+
+    .contacts-main-heading {
+
+        text-align: left;
+        width: 45.625rem;
+        background-color: #BA4270;
+
+
+    }
+
+
+    .contacts-main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .contacts-partners-content {
+        height: 14rem;
+    }
+
+        /* MAIN CONTENT */
+
+
+
+    /* SUBMIT FORM */
+
+
+    /* PARTNERS */
+
+    /* MEDIA QUERIES */
+    /* MEDIA QUERIES */
+}
