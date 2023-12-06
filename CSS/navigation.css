@@ -13,7 +13,7 @@ body {
 }
 
 /* Navigacijos nusatymas desktop */
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1440px) {
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -21,7 +21,6 @@ body {
         width: 68.75rem;
         height: 3rem;
         margin: 0.938rem auto;
-        margin-bottom: 82px;
     }
 
     .logo-list {
@@ -120,12 +119,7 @@ body {
         align-items: center;
         max-width: 64rem;
         height: 2.375rem;
-        margin: 0.938rem auto;
-        margin-top: 1.5rem;
-        margin-bottom: 80px;
-
-
-
+        margin: 1.5rem auto;
     }
 
     .logo-list {
@@ -133,8 +127,6 @@ body {
         justify-content: space-between;
         align-items: center;
         column-gap: 3.125rem;
-
-
     }
 
     .menu-toggle {
@@ -143,7 +135,6 @@ body {
 
     .logo {
         cursor: pointer;
-
     }
 
     .payapi {
@@ -157,7 +148,6 @@ body {
         list-style: none;
         display: flex;
         align-items: center;
-
     }
 
     .menu li {
@@ -173,7 +163,6 @@ body {
         font-weight: 700;
         line-height: normal;
         opacity: 0.7;
-
     }
 
     .menu a:hover {
@@ -197,10 +186,6 @@ body {
         letter-spacing: -0.007rem;
     }
 
-    /* Neatgaminu kas cia  */
-    /* .schedule-demo-list{
-        display: none;
-    } */
     .schedule-demo:hover {
         background-color: var(--charm-pink-actives);
         cursor: pointer;
@@ -216,7 +201,6 @@ body {
     }
 
 }
-
 
 /* Mobiliojo ekrano stiliai */
 /* Meniu nustatymas esant mobile aplinkoje  */
@@ -238,7 +222,6 @@ body {
 
     .menu.active {
         display: flex;
-
     }
 
     .menu li {
@@ -263,19 +246,13 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin-top: 1.6rem;
-        margin-bottom: 48px;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-
-
+        margin: 1.6rem 1.5rem 2rem;
     }
 
     .payapi {
         height: 2.375rem;
         align-items: center;
         margin-left: 0.3rem;
-
     }
 
     .logo-list {
@@ -283,8 +260,6 @@ body {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-
-
     }
 
     .close-menu {
@@ -292,8 +267,6 @@ body {
         border-bottom: 0.125rem solid rgb(251, 252, 254, 0.3);
         width: 100%;
         padding: 0.1rem;
-
-
     }
 
     .menu a {
@@ -307,7 +280,6 @@ body {
         line-height: 2.125rem;
         text-decoration: none;
         opacity: 0.6;
-
     }
 
     /* Schedule demo migtukas mobiliai aplinkai  */
@@ -340,13 +312,5 @@ body {
         right: 1.5rem;
         top: 2.5rem;
         height: 1.25rem;
-
-
-
-
     }
-
-
-
-
 }

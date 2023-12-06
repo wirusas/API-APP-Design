@@ -184,9 +184,10 @@
         padding: 2rem;
         background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
         background-repeat: no-repeat;
-        background-position: left -13.5rem top -22.32rem;
+        background-position: left -9.5rem top -22.32rem;
         background-size: 48.8rem 48.8rem;
         margin: 0 auto;
+        height: 33rem;
     }
 
     .who-we-work-with{
@@ -210,15 +211,15 @@
         opacity: 0.7;
         margin-bottom: 2.5rem;
         text-align: left;
-        padding-left: 4rem;
+        margin-left: 4rem;
     }
 
     .logo-container{
         width: 33rem;
         position: absolute;
-        right: 15%;
-        top: 34%;
-        gap: 2rem;
+        right: 12%;
+        top: 35%;
+        gap: 1.2rem;
         margin: 0 auto;
     }
 
