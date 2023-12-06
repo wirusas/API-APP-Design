@@ -12,12 +12,11 @@ header {
 header img {
     width: 8rem;
     height: 15rem;
-    flex-shrink: 0;
 }
 
 header h1 {
     width: 20.4375rem;
-    color: #36536B;
+    color: var(--suan-juan-blue);
     text-align: center;
     font-family: DM Serif Display, serif;
     font-size: 2rem;
@@ -44,7 +43,7 @@ header form input {
     height: 3rem;
     flex-shrink: 0;
     border-radius: 1.5rem;
-    background: #FBFCFE;
+    background: var(--link-water-white);
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     border: none;
 }
@@ -54,7 +53,7 @@ header form input:focus-visible {
 }
 
 header form input::placeholder {
-    color: #6C8294;
+    color: var(--light-suan-juan-blue);
     font-family: Public Sans;
     font-size: 0.938rem;
     font-style: normal;
@@ -66,7 +65,7 @@ header form input::placeholder {
 
 header input[type="email"] {
     padding-left: 1.69rem;
-    color: #36536B;
+    color: var(--suan-juan-blue);
     font-family: Public Sans sans;
     font-size: 0.938rem;
     font-style: normal;
@@ -74,7 +73,7 @@ header input[type="email"] {
     line-height: normal;
     margin-bottom: 1.5rem;
     border-radius: 1.5rem;
-    background: #FBFCFE;
+    background: var(--link-water-white);
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 }
 
@@ -87,8 +86,8 @@ header form .btn-demo {
     height: 3rem;
     flex-shrink: 0;
     border-radius: 1.5rem;
-    background: #BA4270;
-    color: #FBFCFE;
+    background: var(--dark-pink);
+    color: var(--link-water-white);
     text-align: center;
     font-family: Public Sans;
     font-size: 0.9375rem;
@@ -102,11 +101,11 @@ header form .btn-demo {
 
 header form .btn-demo:hover {
     border-radius: 1.5rem;
-    background: #DA6D97;
+    background: var(--charm-pink-actives);
 }
 
 header p {
-    color: #6C8294;
+    color: var(--light-suan-juan-blue);
     font-family: Public Sans;
     font-size: 0.9375rem;
     font-style: normal;
@@ -115,10 +114,9 @@ header p {
 }
 
 header p a {
-    color: #6C8294;
+    color: var(--light-suan-juan-blue);
     font-family: Public Sans sans-serif;
     font-size: 0.9375rem;
-
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -128,7 +126,7 @@ header p a {
 
 /* Tablet */
 @media (min-width: 768px) {
-    header{
+    header {
         margin-top: 3rem;
     }
 
@@ -142,12 +140,7 @@ header p a {
         width: 35.8125rem;
         height: 7.625rem;
         flex-shrink: 0;
-        color: #36536B;
-        text-align: center;
-        font-family: DM Serif Display;
         font-size: 3rem;
-        font-style: normal;
-        font-weight: 400;
         line-height: 3.5rem;
         letter-spacing: -0.02306rem;
     }
@@ -158,13 +151,13 @@ header p a {
         flex-shrink: 0;
         display: flex;
         flex-direction: row;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: center;
         font-family: DM Serif Display;
         font-size: 3rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 3.5rem; /* 116.667% */
+        line-height: 3.5rem;
         letter-spacing: -0.02306rem;
     }
 
@@ -172,7 +165,7 @@ header p a {
         width: 10.8125rem;
         height: 3rem;
         flex-shrink: 0;
-        color: #FBFCFE;
+        color: var(--link-water-white);
         font-family: Public Sans;
         font-size: 0.9375rem;
         font-style: normal;
@@ -209,7 +202,7 @@ header p a {
     header h1 {
         width: 34.125rem;
         height: 15.1875rem;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         font-family: DM Serif Display;
         font-size: 4.5rem;
         font-style: normal;
