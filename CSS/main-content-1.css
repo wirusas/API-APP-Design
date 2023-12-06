@@ -137,6 +137,13 @@
     .who-we-work-with h2{
         margin-bottom: 1.5rem;
         margin-top: 4.5rem;
+        color: #FBFCFE;
+        text-align: center;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.5rem; /* 116.667% */
+        letter-spacing: -0.02306rem;
     }
 
     .logo-container-section .google{
@@ -198,7 +205,12 @@
     .who-we-work-with h2{
         text-align: left;
         padding-left: 4rem;
-        font-size: 2.5rem;
+        color: #FBFCFE;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.5rem; /* 116.667% */
+        letter-spacing: -0.02306rem;
     }
 
     .who-we-work-with p{
