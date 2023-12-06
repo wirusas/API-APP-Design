@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../CSS/start-line.css">
     <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="../CSS/alternate-pages-layout.css">
+    <link rel="stylesheet" href="../CSS/contacts.css">
 
     <!-- <<<<<<            MAIN PAGE          >>>>> -->
 
@@ -56,7 +57,83 @@
 
 
     <!-- MAIN -->
+    <!-- MAIN HEADING -->
     <main>
+         <header class="contacts-main-heading">
+                    <h1>Submit a help request and
+                        we’ll get in touch shortly.</h1>
+                </header>
+                <!-- MAIN CONTENT -->
+        <section class="contacts-main-content">
+
+            <!-- SUBMIT FORM -->
+
+            <article class="contacts-submit-form">
+               
+                
+                <form action="url" class="contacts-main-form">
+                    <label for="user-name">
+                        <input type="text" name="user-name" id="user-name" placeholder="Name" required
+                            pattern="[A-Z][a-z]{0, 30}">
+                    </label>
+                    
+                    <label for="user-email">
+                        <input type="email" name="user-email" id="user-email" placeholder="Email Address" required
+                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" class="required-input">
+                    </label>
+                    <p class="required-note">This field can’t be empty</p>
+                   
+                    <label for="company-name">
+                        <input type="text" name="company-name" id="company-name" placeholder="Company Name">
+                    </label>
+                   
+                    <label for="user-title">
+                        <input type="text" name="user-title" id="user-title" placeholder="Title">
+                    </label>
+                    
+                    <label for="contact-message">
+                        <textarea name="contact-message" id="contact-message">Message
+                        </textarea>
+                    </label>
+                    
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>Stay up-to-date with company announcements and updates to our API
+                    </label>
+                    <div class="button-container">
+                        <input type="submit" name="submit" id="submit" value="Submit" class="button">
+                    </div>
+
+                </form>
+            </article>
+
+
+
+            <!-- PARTNERS -->
+            <article class="contacts-partners-content">
+                <h2 class="partners-heading">Join the thousands of innovators already building with us</h2>
+
+                <div class="partners-icons">
+                    <img src="../IMG/about/tesla_logo.svg" alt="tesla-logo" class="tesla-logo">
+
+                    <img src="../IMG/about/microsoft_logo.svg" alt="ms-logo" class="ms-logo">
+
+
+                    <img src="../IMG/about/hp_logo.svg" alt="hp-logo" class="hp-logo">
+
+
+                    <img src="../IMG/about/oracle_logo.svg" alt="oracle-logo" class="oracle-logo">
+
+                    <img src="../IMG/about/google_logo.svg" alt="google-logo" class="google-logo">
+
+                    <img src="../IMG/about/nvidia_logo.svg" alt="nvidia-logo" class="nvidia-logo">
+                </div>
+            </article>
+
+        </section>
+
+
+
 
 
 
@@ -105,6 +182,7 @@
     </footer>
 
     <script src="../JS/main.js"></script>
+    <script src="../JS/contacts.js"></script>
 </body>
 
 </html>
