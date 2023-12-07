@@ -138,7 +138,7 @@
         background-image: url(../IMG/about/mobile/image-team-members.jpg);
         width: 100%;
         height: 300px;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         margin-bottom: 65px;
         background-repeat: no-repeat;
@@ -456,12 +456,13 @@
         background-image: url(../IMG/about/tablet/image-team-members.jpg);
         max-width: 100%;
         height: 350px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         margin-bottom: 34px;
+        
     }
-
+   
     .four-row-about {
         display: flex;
         flex-direction: row;
@@ -591,9 +592,18 @@
 }
 
 @media screen and (min-width: 1440px) {
+    
+    body {
+            /*BODY BACKGROUND*/
+            background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg'), url('../IMG/shared/desktop/bg-pattern-circle.svg');
+            background-position: right -8.775rem top -32.713rem, left -32.382rem top 43%;
+            background-size: 48.8rem 48.8rem;
+            margin: 0 auto;
+        }
     .main-content-2 {
         display: flex;
         flex-direction: column;
+        
     }
 
     .title-about {
@@ -601,6 +611,7 @@
         justify-content: center;
         width: 100%;
         margin-bottom: 51px;
+      
     }
 
     .title-about h1 {
@@ -706,15 +717,19 @@
         text-align: left;
         height: 84px;
     }
-
+    .cover{
+        position: relative;
+    }
     .background-about {
         background-image: url(../IMG/about/desktop/image-team-members.jpg);
         max-width: 100%;
         height: 513px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center center;
         margin-bottom: 50px;
+           
+        
     }
 
     .four-row-about {
