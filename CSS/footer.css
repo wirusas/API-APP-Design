@@ -28,6 +28,10 @@ footer {
     height: 22.1rem;
     margin: 0 auto;
     text-align: center;
+    background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position: right 50% bottom -37.83rem;
+    background-size: 48.75rem 48.75rem;
       
 }
 
@@ -113,6 +117,11 @@ footer a:active {
         align-items: center;
         justify-content: space-between;
         padding: 0 2.44rem;
+
+        background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
+    background-repeat: no-repeat;
+    background-position: right -24.32rem bottom -33.974rem;
+    background-size: 48.75rem 48.75rem;
     }
 
     .footer-nav {
