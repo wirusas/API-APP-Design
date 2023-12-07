@@ -15,12 +15,12 @@ body {
 /* Navigacijos nusatymas desktop */
 @media screen and (min-width:1440px) {
     .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
         /* width: 68.75rem; */
-        height: 3rem;
-        margin: 0.938rem auto;
+        /* height: 3rem; */
+        /* margin: 0.938rem auto; */
     }
 
     .logo-list {
@@ -119,7 +119,8 @@ body {
         align-items: center;
         /* max-width: 64rem; */
         height: 2.375rem;
-        margin: 1.5rem auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     .logo-list {
@@ -319,7 +320,7 @@ body {
     .navbar {
         margin-left: 2.44rem;
         margin-right: 2.44rem;
-    }
+        }
 }
 
 @media screen and (min-width:1440px) {
