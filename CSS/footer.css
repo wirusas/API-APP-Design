@@ -32,7 +32,7 @@ footer {
     background-repeat: no-repeat;
     background-position: right 50% bottom -37.83rem;
     background-size: 48.75rem 48.75rem;
-      
+
 }
 
 
@@ -94,12 +94,19 @@ footer a:visited {
 footer a:hover {
     color: var(--link-water-white);
     opacity: 1;
-    
+cursor: pointer;
+
 }
 
 footer a:active {
     color: var(--link-water-white);
     opacity: 1;
+}
+
+.team-icon {
+    border-radius: 5px;
+    width: 26px;
+    height: 26px;
 }
 
 
@@ -119,9 +126,9 @@ footer a:active {
         padding: 0 2.44rem;
 
         background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
-    background-repeat: no-repeat;
-    background-position: right -24.32rem bottom -33.974rem;
-    background-size: 48.75rem 48.75rem;
+        background-repeat: no-repeat;
+        background-position: right -24.32rem bottom -33.974rem;
+        background-size: 48.75rem 48.75rem;
     }
 
     .footer-nav {

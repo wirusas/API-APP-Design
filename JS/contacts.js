@@ -1,9 +1,9 @@
-let buttonHide = document.getElementsByClassName("required-input");
+let userEmail = document.querySelector("#user-email");
+let requiredNote = document.querySelector(".required-note");
 
-let reqNote = document.getElementByTagName("p");
+userEmail.addEventListener("click", function(){
+requiredNote.classList.add("required-note-visible")
 
 
-reqNote.addEventListener("click", function () {
-    reqNote.classList.toggle("display-coment-box");
-}
-)
+
+})

@@ -73,7 +73,7 @@
                 
                 <form action="url" class="contacts-main-form">
                     <label for="user-name">
-                        <input type="text" name="user-name" id="user-name" placeholder="Name" required
+                        <input type="text" name="user-name" id="user-name" placeholder="Name"
                             pattern="[A-Z][a-z]{0, 30}">
                     </label>
                     
@@ -81,8 +81,9 @@
                         <input type="email" name="user-email" id="user-email" placeholder="Email Address" required
                             pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" class="required-input">
                     </label>
-                    <p class="required-note">This field can’t be empty</p>
-                   
+                    <div class="required-note">
+                    <p >This field can’t be empty</p>
+                    </div>
                     <label for="company-name">
                         <input type="text" name="company-name" id="company-name" placeholder="Company Name">
                     </label>
@@ -159,11 +160,12 @@
     <!-- FOOTER -->
     <footer>
         <div class="footer-nav">
-            <img src="../IMG/home/desktop/payapi.svg" alt="payapi-footer-logo" class="payapi-footer-logo">
+            <a href="../index.html"><img src="../IMG/home/desktop/payapi.svg" alt="payapi-footer-logo" class="payapi-footer-logo">
+            </a>
             <ul>
-                <li><a href="PAGES/pricing.html">Pricing</a></li>
-                <li><a href="PAGES/about.html">About</a></li>
-                <li><a href="PAGES/contacts.html">Contacts</a></li>
+                <li><a href="../PAGES/pricing.html">Pricing</a></li>
+                <li><a href="../PAGES/about.html">About</a></li>
+                <li><a href="../PAGES/contacts.html">Contacts</a></li>
             </ul>
         </div>
         <div class="footer-social">
