@@ -18,7 +18,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 68.75rem;
+        /* width: 68.75rem; */
         height: 3rem;
         margin: 0.938rem auto;
     }
@@ -117,7 +117,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 64rem;
+        /* max-width: 64rem; */
         height: 2.375rem;
         margin: 1.5rem auto;
     }
@@ -312,5 +312,19 @@ body {
         right: 1.5rem;
         top: 2.5rem;
         height: 1.25rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navbar {
+        margin-left: 2.44rem;
+        margin-right: 2.44rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .navbar {
+        margin-left: 10.31rem;
+        margin-right: 10.31rem;
     }
 }
