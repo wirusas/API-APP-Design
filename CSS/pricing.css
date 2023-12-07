@@ -134,6 +134,7 @@ font-family: 'Public Sans', sans-serif;
 .request-access-button:hover {
     background-color: var(--suan-juan-blue);
     color: var(--link-water-white);
+    cursor: pointer;
 }
 
 

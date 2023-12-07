@@ -60,10 +60,6 @@
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 }
 
-.ready-to-start input:hover {
-    cursor: pointer;
-}
-
 .ready-to-start .btn-demo {
     width: 20.4375rem;
     height: 3rem;
