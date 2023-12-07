@@ -141,7 +141,7 @@
         background-size: contain;
         background-position: center;
         margin-bottom: 65px;
-        background-repeat:no-repeat ;
+        background-repeat: no-repeat;
     }
 
     .four-row-about {
@@ -231,7 +231,7 @@
         margin-bottom: 16px;
     }
 
-   
+
 
     .fifth-row-about {
         display: flex;
@@ -371,13 +371,14 @@
     .Vision {
         display: flex;
         flex-direction: row;
-    }    
+    }
+
     .bottom-line {
-            height: 0.0625rem;
-            margin: 16px auto;
-            opacity: 0.25;
-            background: #36536B;
-    
+        height: 0.0625rem;
+        margin: 16px auto;
+        opacity: 0.25;
+        background: #36536B;
+
     }
 
     .Vision h1 {
@@ -455,8 +456,8 @@
         background-image: url(../IMG/about/tablet/image-team-members.jpg);
         max-width: 100%;
         height: 350px;
-        background-size:contain;
-        background-repeat:no-repeat ;
+        background-size: contain;
+        background-repeat: no-repeat;
         background-position: center;
         margin-bottom: 34px;
     }
@@ -630,13 +631,14 @@
         display: flex;
         flex-direction: row;
     }
+
     .bottom-line {
         height: 0.0625rem;
         margin: 16px auto;
         opacity: 0.25;
         background: #36536B;
     }
-    
+
 
     .Vision h1 {
         color: #36536B;
@@ -710,7 +712,7 @@
         max-width: 100%;
         height: 513px;
         background-size: contain;
-        background-repeat:no-repeat ;
+        background-repeat: no-repeat;
         background-position: center;
         margin-bottom: 50px;
     }
@@ -718,7 +720,7 @@
     .four-row-about {
         display: flex;
         flex-direction: row;
-        justify-content:center ;
+        justify-content: center;
         align-items: center;
         column-gap: 30px;
         width: 100%;
@@ -833,6 +835,6 @@
         height: 56px;
     }
 
-    
+
 
 }
