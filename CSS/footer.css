@@ -54,7 +54,6 @@ footer img {
 .payapi-footer-logo {
     width: 8.4375rem;
     height: 2.375rem;
-    margin: 2.5rem 0;
     filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(3662%) hue-rotate(181deg) brightness(96%) contrast(107%);
 
 }
@@ -94,7 +93,7 @@ footer a:visited {
 footer a:hover {
     color: var(--link-water-white);
     opacity: 1;
-cursor: pointer;
+    cursor: pointer;
 
 }
 
