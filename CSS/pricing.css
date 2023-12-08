@@ -150,8 +150,8 @@ font-family: 'Public Sans', sans-serif;
     /* MAIN */
 
     .pricing-container-main {
-        padding-left: 6.5%;
-        padding-right: 6.5%;
+        padding-left: 2.44rem;
+        padding-right: 2.5rem;
     }
 
     .request-access-button {
@@ -165,7 +165,6 @@ font-family: 'Public Sans', sans-serif;
         grid-template-rows: 3rem, 1fr;
         grid-column-gap: 0.63rem;
         margin: 0 auto;
-
     }
 
     .plan {
@@ -249,6 +248,12 @@ font-family: 'Public Sans', sans-serif;
 
 /* >1440px */
 @media (min-width: 1440px) {
+
+    .pricing-container-main {
+        padding-left: 10.25rem;
+        padding-right: 10.31rem;
+    }
+
     .pricing-header {
         font-size: 3.5rem;
         letter-spacing: -0.02694rem;
@@ -262,9 +267,14 @@ font-family: 'Public Sans', sans-serif;
         letter-spacing: -0.01538rem;
     }
 
+    .pricing-plans {
+        grid-column-gap: 1.87rem;
+
+    }
+
     .plan {
         text-align: left;
-        width: 21.875rem;
+        /* width: 21.875rem; */
         font-size: 2rem;
         letter-spacing: -0.01538rem;
     }
@@ -291,9 +301,5 @@ font-family: 'Public Sans', sans-serif;
         text-align: left;
     }
 
-    .pricing-container-main {
-        padding-left: 10.25rem
-        
-    }
 
 }
