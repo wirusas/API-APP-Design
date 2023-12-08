@@ -163,13 +163,6 @@ textarea {
 }
 
 
-
-.display-note {
-    display: none;
-}
-
-
-
 /* CHECKBOX */
 
 /* Customize the label (the container) */
@@ -289,7 +282,6 @@ textarea {
     grid-row-gap: 2.8rem;
     grid-column-gap: 3rem;
     margin-bottom: 5rem;
-
 }
 
 .tesla-logo {
@@ -486,16 +478,18 @@ textarea {
     }
 
     .contacts-main-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        padding-left: 10.25rem;
-        padding-left: 0;
+        padding-right: 10.25rem;
+
     }
 
     .contacts-partners-content {
         height: 20rem;
         width: 34rem;
+        margin-right: 1rem;
+
     }
 
     /* SUBMIT-FORM */
@@ -503,7 +497,7 @@ textarea {
     .partners-heading {
         text-align: left;
         margin-left: 0;
-    }
+       }
 
     .contacts-main-form input,
     .contacts-main-form textarea {
