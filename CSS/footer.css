@@ -52,6 +52,8 @@ footer img {
 }
 
 .payapi-footer-logo {
+    margin-top: 2.56rem;
+    margin-bottom: 2.5rem;
     width: 8.4375rem;
     height: 2.375rem;
     filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(3662%) hue-rotate(181deg) brightness(96%) contrast(107%);
@@ -147,6 +149,11 @@ footer a:active {
 
     footer ul li {
         margin: 0;
+    }
+
+    .payapi-footer-logo {
+        margin-top: 2.56rem;
+        margin-bottom: 2.5rem;
     }
 
 }

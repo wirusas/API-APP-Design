@@ -146,7 +146,7 @@
     .ready-to-start {
         flex-direction: row;
         justify-content: center;
-        width: 90rem;
+        width: auto;
         height: 9.25rem;
         margin: 0 auto 2.5rem;
         padding-left: 4rem;
