@@ -34,9 +34,8 @@ body {
 }
 
 /* MEDIA QUERIES */
-/* >768px */
+/* TABLET */
 @media (min-width: 768px) {
-
     /* BODY */
     body {
         /*BODY BACKGROUND*/
@@ -48,7 +47,7 @@ body {
     }
 }
 
-/* >1440px */
+/* DESKTOP */
 @media (min-width: 1440px) {
     /* BODY */
     body {

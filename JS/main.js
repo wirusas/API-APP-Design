@@ -1,9 +1,6 @@
 // HERE PLACE YOUR CODE FOR BURGER MENU
-/* jshint esversion: 6 */
-// Meniu migtukas
+// MENU BUTTON
 const menuToggle = document.querySelector(".menu-toggle");
-// HERE PLACE YOUR CODE FOR FORM
-
 // HERE PLACE YOUR EXTRA CODES AND NAME THEM PROPERLY
 let inputEmail = document.querySelector(".email-input");
 let form = document.querySelector("form");
@@ -22,19 +19,19 @@ const menu = document.querySelector(".menu");
 // meniu uzdarymo x migtukas
 const close_menu = document.querySelector(".close-menu");
 
-// Su sia funkcija mes gauname, nuspaudus meniu migtuka mums pasirodo musu html esantis listas
+// BURGER TOGGLE LIST ON MOBILE
 menuToggle.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
-// Sita funkcija leis mums uzdaryti meniu
+// BURGER CLOSING ON MOBILE
 function hide() {
   menu.classList.remove("active");
 }
-// Nuspaudus close_menu yra iskvieciama funkcija hide kuri paslepia musu meniu lista
+// BURGER CLOSING
 close_menu.addEventListener("click", hide);
 
 // HERE PLACE YOUR CODE FOR FORM
-let inputEmailReady = document.querySelector(".email-input-2");
+let inputEmailReady = document.querySelector(".email-input-two");
 let formReady = document.querySelector(".ready-to-start");
 
 formReady.addEventListener("submit", function () {
@@ -45,4 +42,4 @@ formReady.addEventListener("submit", function () {
   }
 });
 
-// HERE PLACE YOUR EXTRE CODES AND NAME THEM PROPERLY
+// HERE PLACE YOUR EXTRA CODES AND NAME THEM PROPERLY
