@@ -186,7 +186,7 @@ header p a {
     header {
         flex-direction: row-reverse;
         justify-content: center;
-        width: 90rem;
+        width: auto;
         height: 35.938rem;
         gap: 14rem;
         margin: 0 auto;
