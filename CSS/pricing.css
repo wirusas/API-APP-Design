@@ -1,30 +1,4 @@
-/* READ ME */
-/* Place your part at the dedicated part, all parts are named same as in html  */
-
-
-/*VARIABLES*/
-
-:root {
-    /*PRIMARY COLORS*/
-    --dark-pink: #ba4270;
-    --link-water-white: #fbfcfe;
-    /*SECONDARY COLORS*/
-    --charm-pink-actives: #da6d97;
-    --suan-juan-blue: #36536b;
-    --light-suan-juan-blue: #6c8294;
-    --mirage-blue: #1b262f;
-}
-
-/*TYPOGRAPHY to use copy and paste where needed
-
-font-family: 'DM Serif Display', serif;
-font-family: 'Public Sans', sans-serif;
-
-*/
-
-
-/* <<<<<<            MAIN PAGE          >>>>> */
-
+/* MOBILE */
 .pricing-container-main {
     padding-left: 6.5%;
     padding-right: 6.5%;
@@ -39,8 +13,7 @@ font-family: 'Public Sans', sans-serif;
     line-height: 2.25rem;
     letter-spacing: -0.01538rem;
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem;
 }
 
 .plan-heading {
@@ -84,13 +57,11 @@ font-family: 'Public Sans', sans-serif;
     margin: 0 auto;
     display: inline-block;
     text-align: left;
-
 }
 
 .plan-features li {
     list-style-type: none;
 }
-
 
 .checked-feature::before {
     content: url(../IMG/pricing/check_mark.svg);
@@ -104,9 +75,8 @@ font-family: 'Public Sans', sans-serif;
 .unchecked-feature::before {
     content: url(../IMG/pricing/check_mark.svg);
     margin-right: 1.5rem;
-    opacity: 0%;
+    opacity: 0;
 }
-
 
 .plan {
     text-align: center;
@@ -124,11 +94,8 @@ font-family: 'Public Sans', sans-serif;
     border-radius: 1.5rem;
     border: 1px solid var(--suan-juan-blue);
     background-color: #edf3f8;
-    margin: 0 auto;
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem;
     display: block;
-
-
 }
 
 .request-access-button:hover {
@@ -137,18 +104,8 @@ font-family: 'Public Sans', sans-serif;
     cursor: pointer;
 }
 
-
-
-
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-
-/* >768px */
-
+/* TABLET */
 @media (min-width: 768px) {
-
-    /* MAIN */
-
     .pricing-container-main {
         padding-left: 2.44rem;
         padding-right: 2.5rem;
@@ -162,14 +119,12 @@ font-family: 'Public Sans', sans-serif;
     .pricing-plans {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 3rem, 1fr;
         grid-column-gap: 0.63rem;
         margin: 0 auto;
     }
 
     .plan {
         text-align: center;
-
     }
 
     .pricing-header {
@@ -178,7 +133,6 @@ font-family: 'Public Sans', sans-serif;
         letter-spacing: -0.02306rem;
         margin-bottom: 4.31rem;
         margin-top: 5rem;
-
     }
 
     .plan-heading {
@@ -191,36 +145,32 @@ font-family: 'Public Sans', sans-serif;
         font-size: 3rem;
         line-height: 4.5rem;
         letter-spacing: -0.02306rem;
-
     }
 
     .free-plan-extra-info p::after {
         content: "Build and test using our core set of products with up to 100 API requests";
         color: #6C8294;
-        font-family: Public Sans;
+        font-family: Public Sans, sans-serif;
         font-size: 0.9375rem;
         font-style: normal;
         font-weight: 400;
         line-height: 1.75rem;
         margin-bottom: 1.19rem;
-
     }
 
     .free-plan-extra-info {
         text-align: center;
         height: 14ch;
-
     }
 
     .basic-plan-extra-info p::after {
         content: "Launch your project with unlimited requests and no contractual minimums";
         color: #6C8294;
-        font-family: Public Sans;
+        font-family: Public Sans, sans-serif;
         font-size: 0.9375rem;
         font-style: normal;
         font-weight: 400;
         line-height: 1.75rem;
-
     }
 
     .basic-plan-extra-info {
@@ -231,12 +181,11 @@ font-family: 'Public Sans', sans-serif;
     .premium-plan-extra-info p::after {
         content: "Get tailored solutions, volume pricing, and dedicated support for your team ";
         color: #6C8294;
-        font-family: Public Sans;
+        font-family: Public Sans, sans-serif;
         font-size: 0.9375rem;
         font-style: normal;
         font-weight: 400;
         line-height: 1.75rem;
-
     }
 
     .premium-plan-extra-info {
@@ -246,7 +195,7 @@ font-family: 'Public Sans', sans-serif;
 }
 
 
-/* >1440px */
+/* DESKTOP */
 @media (min-width: 1440px) {
 
     .pricing-container-main {
@@ -269,7 +218,6 @@ font-family: 'Public Sans', sans-serif;
 
     .pricing-plans {
         grid-column-gap: 1.87rem;
-
     }
 
     .plan {
@@ -300,6 +248,4 @@ font-family: 'Public Sans', sans-serif;
         letter-spacing: -0.02694rem;
         text-align: left;
     }
-
-
 }
