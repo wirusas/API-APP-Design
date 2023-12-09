@@ -1,68 +1,33 @@
-/* READ ME */
-/* Place your part at the dedicated part, all parts are named same as in html  */
-
-
-/*VARIABLES*/
-
-:root {
-    /*PRIMARY COLORS*/
-    --dark-pink: #ba4270;
-    --link-water-white: #fbfcfe;
-    /*SECONDARY COLORS*/
-    --charm-pink-actives: #da6d97;
-    --suan-juan-blue: #36536b;
-    --light-suan-juan-blue: #6c8294;
-    --mirage-blue: #1b262f;
-}
-
-/*TYPOGRAPHY to use copy and paste where needed
-
-font-family: 'DM Serif Display', serif;
-font-family: 'Public Sans', sans-serif;
-
-*/
-
-
-/* MAIN HEADING */
+/* MOBILE */
 .contacts-main-heading h1 {
     color: var(--suan-juan-blue);
     text-align: center;
-    font-family: DM Serif Display;
+    font-family: DM Serif Display, sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2.25rem;
     letter-spacing: -0.01538rem;
-
 }
 
 .contacts-main-heading {
     margin: 3rem auto 2.5rem auto;
     text-align: center;
     width: 20.4375rem;
-
-
 }
 
-/* MAIN CONTENT */
-
-
-
 /* SUBMIT FORM */
-
 .contacts-main-form ::placeholder,
 textarea {
-    color: #36536B;
-    font-family: Public Sans;
+    color: var(--suan-juan-blue);
+    font-family: Public Sans, sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
-    /* 166.667% */
     letter-spacing: -0.00719rem;
     opacity: 0.5;
     padding-left: 1.25rem;
-
 }
 
 .contacts-main-form input,
@@ -71,16 +36,15 @@ textarea {
     height: 2.625rem;
     width: 20.4375rem;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem;
     border: none;
     padding-bottom: 1.06rem;
     border-bottom: 0.0625rem solid #36536b80;
-    margin-bottom: 1.5rem;
 }
 
 .required-note {
     color: #F00;
-    font-family: Public Sans;
+    font-family: Public Sans, sans-serif;
     font-size: 0.6875rem;
     font-style: normal;
     font-weight: 400;
@@ -91,19 +55,15 @@ textarea {
     width: 20.4375rem;
     padding-left: 1.25rem;
     opacity: 0;
-    /* display: none; */
 }
-
 
 .required-note p {
     text-align: left;
-
 }
 
 .required-note-visible {
     opacity: .5;
 }
-
 
 .contacts-main-form input:focus,
 .contacts-main-form textarea:focus {
@@ -113,12 +73,11 @@ textarea {
 
 .contacts-main-form input:focus::-webkit-input-placeholder {
     color: #F00;
-    font-family: Public Sans;
+    font-family: Public Sans, sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
-    /* 166.667% */
     letter-spacing: -0.00719rem;
 }
 
@@ -143,9 +102,9 @@ textarea {
     border-radius: 1.5rem;
     border: 1px solid #36536B;
     padding: 0;
-    color: #36536B;
+    color: var(--suan-juan-blue);
     text-align: center;
-    font-family: Public Sans;
+    font-family: Public Sans, sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 700;
@@ -157,37 +116,30 @@ textarea {
 }
 
 .contacts-main-form input[type="submit"]:hover {
-    color: #FBFCFE;
-    background: #36536B;
+    color: var(--link-water-white);
+    background: var(--suan-juan-blue);
     cursor: pointer;
 }
 
-
 /* CHECKBOX */
-
-/* Customize the label (the container) */
 .checkbox-container {
     display: block;
     position: relative;
+    margin: 0 auto 0.75rem;
     padding-left: 3.12rem;
-    margin-bottom: 12px;
     cursor: pointer;
     width: 20.4375rem;
-
-    color: #36536B;
-    font-family: Public Sans;
+    color: var(--suan-juan-blue);
+    font-family: Public Sans sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
-    /* 166.667% */
     letter-spacing: -0.00719rem;
-
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    margin: 0 auto;
 }
 
 /* Hide the browser's default checkbox */
@@ -211,13 +163,13 @@ textarea {
 }
 
 /* On mouse-over, add a grey background color */
-.checkbox-container:hover input~.checkmark {
+.checkbox-container:hover input ~ .checkmark {
     background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.checkbox-container input:checked~.checkmark {
-    background-color: #BA4270;
+.checkbox-container input:checked ~ .checkmark {
+    background-color: var(--dark-pink);
     opacity: 1;
 }
 
@@ -229,7 +181,7 @@ textarea {
 }
 
 /* Show the checkmark when checked */
-.checkbox-container input:checked~.checkmark:after {
+.checkbox-container input:checked ~ .checkmark:after {
     display: block;
 }
 
@@ -247,41 +199,33 @@ textarea {
 }
 
 /* CHECKBOX */
-
-
 /* PARTNERS */
 .partners-heading {
-    color: #36536B;
+    color: var(--suan-juan-blue);
     text-align: center;
-    font-family: DM Serif Display;
+    font-family: DM Serif Display, sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
-    /* 133.333% */
     letter-spacing: -0.01156rem;
     opacity: 0.75;
-    margin: 0 auto;
-    margin-bottom: 2.37rem;
+    margin: 0 auto 2.37rem;
     width: 20.4375rem;
-
-
 }
 
 .partners-icons img {
     filter: brightness(0) saturate(100%) invert(30%) sepia(10%) saturate(1856%) hue-rotate(165deg) brightness(92%) contrast(90%);
-
 }
 
 .partners-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
+    margin: 0 auto 5rem;
     width: 20.4375rem;
     padding: 0;
     grid-row-gap: 2.8rem;
     grid-column-gap: 3rem;
-    margin-bottom: 5rem;
 }
 
 .tesla-logo {
@@ -302,7 +246,6 @@ textarea {
     flex-shrink: 0;
 }
 
-
 .ms-logo {
     width: 7.44813rem;
     height: 1.625rem;
@@ -321,20 +264,12 @@ textarea {
     flex-shrink: 0;
 }
 
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-
-/* >768px */
-
+/* TABLET */
 @media (min-width: 768px) {
-
-    /* MAIN HEADING */
-
     .contacts-main-heading h1 {
         font-size: 3rem;
         line-height: 3.5rem;
         letter-spacing: -0.02306rem;
-
     }
 
     .contacts-main-heading {
@@ -343,14 +278,7 @@ textarea {
         width: 35.8125rem;
         padding-left: 3.5rem;
         padding-right: 3.5rem;
-
     }
-
-    /* MAIN CONTENT */
-
-
-
-    /* SUBMIT FORM */
 
     .contacts-main-form input,
     .contacts-main-form textarea {
@@ -368,7 +296,6 @@ textarea {
         width: 27.8125rem;
     }
 
-
     .button-container {
         width: 27.8125rem;
         margin: 0 auto;
@@ -383,8 +310,8 @@ textarea {
     }
 
     .contacts-main-form input[type="submit"]:hover {
-        color: #FBFCFE;
-        background: #36536B;
+        color: var(--link-water-white);
+        background: var(--suan-juan-blue);
     }
 
     /* CHECKBOX */
@@ -394,25 +321,22 @@ textarea {
 
     /* PARTNERS */
     .partners-heading {
-        margin: 0 auto;
-        margin-bottom: 2.94rem;
+        margin: 0 auto 2.94rem;
         width: 27.8125rem;
     }
 
     .partners-icons img {
         filter: brightness(0) saturate(100%) invert(30%) sepia(10%) saturate(1856%) hue-rotate(165deg) brightness(92%) contrast(90%);
-
     }
 
     .partners-icons {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 0 auto;
+        margin: 0 auto 6.25rem;
         width: 33.82rem;
         padding: 0;
         grid-row-gap: 2.8rem;
         grid-column-gap: 4rem;
-        margin-bottom: 6.25rem;
     }
 
     .tesla-logo {
@@ -451,24 +375,15 @@ textarea {
         height: 1.625rem;
         flex-shrink: 0;
     }
-
-    /* MEDIA QUERIES */
-    /* MEDIA QUERIES */
-
-
 }
 
-
-/* >1440px */
+/* DESKTOP */
 @media (min-width: 1440px) {
-
-    /* MAIN HEADING */
     .contacts-main-heading h1 {
         text-align: left;
         font-size: 3.5rem;
         line-height: 3.5rem;
         letter-spacing: -0.02694rem;
-
     }
 
     .contacts-main-heading {
@@ -482,22 +397,19 @@ textarea {
         justify-content: space-between;
         align-items: center;
         padding-right: 10.25rem;
-
     }
 
     .contacts-partners-content {
         height: 20rem;
         width: 34rem;
         margin-right: 1rem;
-
     }
 
     /* SUBMIT-FORM */
-
     .partners-heading {
         text-align: left;
         margin-left: 0;
-       }
+    }
 
     .contacts-main-form input,
     .contacts-main-form textarea {
@@ -507,13 +419,11 @@ textarea {
     .checkbox-container,
     .required-note {
         margin-left: 10.31rem;
-
     }
 
     .button-container {
         margin-left: 10.31rem;
     }
-
 
 
     .tesla-logo {
@@ -534,7 +444,6 @@ textarea {
         flex-shrink: 0;
     }
 
-
     .ms-logo {
         width: 9.14706rem;
         height: 1.9375rem;
@@ -552,16 +461,4 @@ textarea {
         height: 1.625rem;
         flex-shrink: 0;
     }
-
-    /* MAIN CONTENT */
-
-
-
-    /* SUBMIT FORM */
-
-
-    /* PARTNERS */
-
-    /* MEDIA QUERIES */
-    /* MEDIA QUERIES */
 }
