@@ -1,24 +1,15 @@
 @import 'main.css';
 
-/* Resetas css i default  */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-
     font-family: Arial, sans-serif;
 }
 
-/* Navigacijos nusatymas desktop */
+/* DESKTOP */
 @media screen and (min-width:1440px) {
     .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* width: 68.75rem; */
         height: 3rem;
         margin: 0.938rem auto;
     }
@@ -28,7 +19,6 @@ body {
         justify-content: space-between;
         align-items: center;
         column-gap: 3.125rem;
-
     }
 
     .menu-toggle {
@@ -37,7 +27,6 @@ body {
 
     .logo {
         cursor: pointer;
-
     }
 
     .payapi {
@@ -67,7 +56,6 @@ body {
         font-weight: 700;
         line-height: normal;
         opacity: 0.7;
-
     }
 
     .menu a:hover {
@@ -91,10 +79,6 @@ body {
         letter-spacing: -0.007rem;
     }
 
-    /* Neatgaminu kas cia  */
-    /* .schedule-demo-list{
-        display: none;
-    } */
     .schedule-demo:hover {
         background-color: var(--charm-pink-actives);
         cursor: pointer;
@@ -108,10 +92,9 @@ body {
     .mobile {
         display: none;
     }
-
 }
 
-/* Media tablet */
+/* TABLET */
 @media screen and (min-width:768px) {
     .navbar {
         display: flex;
@@ -199,12 +182,9 @@ body {
     .mobile {
         display: none;
     }
-
 }
 
-/* Mobiliojo ekrano stiliai */
-/* Meniu nustatymas esant mobile aplinkoje  */
-
+/* MOBILE */
 @media screen and (max-width: 768px) {
     .menu {
         display: none;
@@ -282,7 +262,7 @@ body {
         opacity: 0.6;
     }
 
-    /* Schedule demo migtukas mobiliai aplinkai  */
+    /* MOBILE BURGER */
     .mobile {
         display: block;
         color: var(--link-water-white);
