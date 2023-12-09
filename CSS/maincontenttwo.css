@@ -1,6 +1,6 @@
 /* For mobile devices */
-@media screen and  (max-width: 767px) {
-    .main-content-2 {
+@media screen and  (max-width: 768px) {
+    .main-content-two {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -14,7 +14,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     .photo {
@@ -31,18 +31,17 @@
         flex-shrink: 0;
     }
 
-    .Easy-to-implement {
+    .easy-to-implement {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Easy-to-implement p {
+    .easy-to-implement p, .simple-ui p {
         text-align: center;
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
+        color: var(--light-suan-juan-blue);
+        font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -50,17 +49,17 @@
         width: 21rem;
     }
 
-    .Easy-to-implement h1 {
-        color: #36536B;
+    .easy-to-implement h1, .simple-ui h1 {
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'DM Serif Display';
-        font-size: 36px;
+        font-family: 'DM Serif Display', sans-serif;
+        font-size: 2.25rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 36px;
-        letter-spacing: -0.277px;
-        width: 327px;
-        margin-bottom: 24px;
+        line-height: 2.25rem;
+        letter-spacing: -0.017rem;
+        width: 20.438rem;
+        margin-bottom: 1.5rem;
     }
 
     .second-row {
@@ -72,8 +71,8 @@
         margin-bottom: 2.5rem;
     }
 
-    .mobile-photo-1 {
-        width: 328px;
+    .mobile-photo-one {
+        width: 20.5rem;
         text-align: center;
     }
 
@@ -92,30 +91,6 @@
         align-items: center;
     }
 
-    .simple-ui h1 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'DM Serif Display';
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 36px;
-        letter-spacing: -0.277px;
-        width: 327px;
-        margin-bottom: 20px;
-    }
-
-    .simple-ui p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        width: 328px;
-    }
-
     .third-row {
         display: flex;
         flex-direction: column;
@@ -124,153 +99,57 @@
         margin: 0 auto;
     }
 
-    .Personal-finances {
+    .personal-finances, .banking-coverage, .consumer-payments {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
-    .personal-photo {
+    .personal-photo, .banking-photo, .consumer-photo {
         text-align: center;
-        width: 106px;
-        height: 106px;
-        margin-bottom: 30px;
+        width: 6.625rem;
+        height: 6.625rem;
+        margin-bottom: 1.875rem;
     }
 
-    .Personal-finances ul {
+    .personal-finances ul, .banking-coverage ul, .consumer-payments ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        width: 328px;
+        width: 20.5rem;
     }
 
-    .Personal-finances h3 {
-        color: #36536B;
+    .personal-finances h3, .banking-coverage h3, .consumer-payments h3 {
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 1.125rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 328px;
-        margin-bottom: 10px;
+        line-height: 1.563rem;
+        letter-spacing: -0.009rem;
+        width: 20.5rem;
+        margin-bottom: 0.625rem;
     }
 
-    .Personal-finances p {
-        color: #6C8294;
+    .personal-finances p, .banking-coverage p, .consumer-payments p {
+        color: var(--light-suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 0.938rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 328px;
-    }
-
-    .Banking-Coverage {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .Banking-photo {
-        text-align: center;
-        width: 106px;
-        height: 106px;
-        margin-bottom: 30px;
-    }
-
-    .Banking-Coverage ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 328px;
-    }
-
-    .Banking-Coverage h3 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 328px;
-        margin-bottom: 10px;
-    }
-
-    .Banking-Coverage p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 328px;
-    }
-
-    .Consumer-Payments {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .Consumer-photo {
-        text-align: center;
-        width: 106px;
-        height: 106px;
-        margin-bottom: 30px;
-    }
-
-    .Consumer-Payments ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 328px;
-    }
-
-    .Consumer-Payments h3 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 328px;
-        margin-bottom: 10px;
-    }
-
-    .Consumer-Payments p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 328px;
+        line-height: 1.563rem;
+        letter-spacing: -0.007rem;
+        width: 20.5rem;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-    .main-content-2 {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .main-content-two {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -296,22 +175,21 @@
     }
 
     .form {
-        width: 391.725px;
+        width: 24.483rem;
         flex-shrink: 0;
     }
 
-    .Easy-to-implement {
+    .easy-to-implement, .simple-ui {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Easy-to-implement p {
+    .easy-to-implement p, .simple-ui p {
         text-align: center;
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
+        color: var(--light-suan-juan-blue);
+        font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -319,16 +197,16 @@
         width: 573px;
     }
 
-    .Easy-to-implement h1 {
-        color: #36536B;
+    .easy-to-implement h1, .simple-ui h1 {
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'DM Serif Display';
-        font-size: 36px;
+        font-family: 'DM Serif Display', sans-serif;
+        font-size: 2.25rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 36px;
-        letter-spacing: -0.277px;
-        width: 573px;
+        line-height: 2.25rem;
+        letter-spacing: -0.017rem;
+        width: 35.813rem;
         margin-bottom: 2rem;
     }
 
@@ -339,8 +217,8 @@
         align-items: center;
     }
 
-    .mobile-photo-1 {
-        width: 391.725px;
+    .mobile-photo-one {
+        width: 24.483rem;
         flex-shrink: 0;
         margin-bottom: 3.5rem;
     }
@@ -352,37 +230,6 @@
         align-items: center;
     }
 
-    .simple-ui {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .simple-ui h1 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'DM Serif Display';
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 36px;
-        letter-spacing: -0.277px;
-        width: 573px;
-        margin-bottom: 2rem;
-    }
-
-    .simple-ui p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        width: 573px;
-    }
-
     .third-row {
         display: flex;
         flex-direction: row;
@@ -392,153 +239,65 @@
         gap: 1rem;
     }
 
-    .Personal-finances {
+    .personal-finances, .consumer-payments {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
-
+        margin-top: 3.125rem;
     }
 
-    .personal-photo {
-        text-align: center;
-        width: 88px;
-        height: 88px;
-        margin-bottom: 30px;
-    }
 
-    .Personal-finances ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .Personal-finances h3 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 223px;
-        margin-bottom: 10px;
-
-    }
-
-    .Personal-finances p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 223px;
-    }
-
-    .Banking-Coverage {
+    .banking-coverage {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 25px;
+        margin-top: 1.563rem;
     }
 
-    .Banking-photo {
+    .personal-photo, .banking-photo, .consumer-photo {
         text-align: center;
-        width: 88px;
-        height: 88px;
-        margin-bottom: 30px;
+        width: 5.5rem;
+        height: 5.5rem;
+        margin-bottom: 1.875rem;
     }
 
-    .Banking-Coverage ul {
+    .personal-finances ul, .banking-coverage ul, .consumer-payments ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-
     }
 
-    .Banking-Coverage h3 {
-        color: #36536B;
+    .personal-finances h3, .banking-coverage h3, .consumer-payments h3 {
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 1.125rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 223px;
-        margin-bottom: 10px;
+        line-height: 1.563rem;
+        letter-spacing: -0.009rem;
+        width: 13.938rem;
+        margin-bottom: 0.625rem;
     }
 
-    .Banking-Coverage p {
-        color: #6C8294;
+    .personal-finances p, .banking-coverage p, .consumer-payments p {
+        color: var(--light-suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 0.938rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 223px;
-    }
-
-    .Consumer-Payments {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .Consumer-photo {
-        text-align: center;
-        width: 88px;
-        height: 88px;
-        margin-bottom: 30px;
-    }
-
-    .Consumer-Payments ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .Consumer-Payments h3 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 223px;
-        margin-bottom: 10px;
-    }
-
-    .Consumer-Payments p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 223px;
+        line-height: 1.563rem;
+        letter-spacing: -0.007rem;
+        width: 13.938rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .main-content-2 {
+    .main-content-two {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -567,37 +326,37 @@
     }
 
     .form {
-        width: 445px;
+        width: 27.813rem;
         flex-shrink: 0;
     }
 
-    .Easy-to-implement {
+    .easy-to-implement, .simple-ui {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Easy-to-implement p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
+    .easy-to-implement p, .simple-ui p {
+        color: var(--light-suan-juan-blue);
+        font-family: 'Public Sans', sans-serif;
+        font-size: 0.938rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 28px;
-        width: 445px;
+        line-height: 1.75rem;
+        width: 27.813rem;
         text-align: left;
     }
 
-    .Easy-to-implement h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 48px;
+    .easy-to-implement h1, .simple-ui h1 {
+        color: var(--suan-juan-blue);
+        font-family: 'DM Serif Display', sans-serif;
+        font-size: 3rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 56px;
-        letter-spacing: -0.369px;
-        width: 445px;
+        line-height: 3.5rem;
+        letter-spacing: -0.023rem;
+        width: 27.813rem;
         margin-bottom: 2rem;
         text-align: left;
     }
@@ -611,7 +370,7 @@
         gap: 5.75rem;
     }
 
-    .mobile-photo-1 {
+    .mobile-photo-one {
         width: 31.125rem;
         flex-shrink: 0;
     }
@@ -624,37 +383,6 @@
         width: 31.125rem;
     }
 
-    .simple-ui {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .simple-ui h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 56px;
-        letter-spacing: -0.369px;
-        width: 445px;
-        margin-bottom: 20px;
-        text-align: left;
-    }
-
-    .simple-ui p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        width: 445px;
-        text-align: left;
-    }
-
     .third-row {
         display: flex;
         flex-direction: row;
@@ -664,149 +392,50 @@
         gap: 1rem;
     }
 
-    .Personal-finances {
+    .personal-finances, .banking-coverage, .consumer-payments {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
-    .personal-photo {
+    .personal-photo, .consumer-photo, .banking-photo {
         text-align: center;
-        width: 106px;
-        height: 106px;
-        margin-bottom: 30px;
-        flex-shrink: 0;
+        width: 6.625rem;
+        height: 6.625rem;
+        margin-bottom: 1.875rem;
     }
 
-    .Personal-finances ul {
+    .personal-finances ul, .banking-coverage ul, .consumer-payments ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
 
-    .Personal-finances h3 {
-        color: #36536B;
+    .personal-finances h3, .banking-coverage h3, .consumer-payments h3 {
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 1.125rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 350px;
+        line-height: 1.563rem;
+        letter-spacing: -0.009rem;
+        width: 21.875rem;
         margin-bottom: 1.813rem;
     }
 
-    .Personal-finances p {
-        color: #6C8294;
+    .personal-finances p, .consumer-payments p, .banking-coverage p {
+        color: var(--light-suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 0.938rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 350px;
+        line-height: 1.563rem;
+        letter-spacing: -0.007rem;
+        width: 21.875rem;
     }
-
-    .Banking-Coverage {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .Banking-photo {
-        text-align: center;
-        width: 106px;
-        height: 106px;
-        margin-bottom: 30px;
-        flex-shrink: 0;
-    }
-
-    .Banking-Coverage ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-
-    }
-
-    .Banking-Coverage h3 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 350px;
-        margin-bottom: 1.813rem;
-    }
-
-    .Banking-Coverage p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 350px;
-    }
-
-    .Consumer-Payments {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .Consumer-photo {
-        text-align: center;
-        width: 106px;
-        height: 106px;
-        margin-bottom: 30px;
-        flex-shrink: 0;
-    }
-
-    .Consumer-Payments ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .Consumer-Payments h3 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 25px;
-        letter-spacing: -0.138px;
-        width: 350px;
-        margin-bottom: 1.813rem;
-    }
-
-    .Consumer-Payments p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: -0.115px;
-        width: 350px;
-    }
-
 }
