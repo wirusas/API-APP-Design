@@ -1,5 +1,5 @@
 /* For mobile devices */
-@media screen and  (max-width: 768px) {
+@media screen and  (max-width: 767px) {
     .main-content-two {
         display: flex;
         flex-direction: column;
