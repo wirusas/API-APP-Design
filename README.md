@@ -1,8 +1,8 @@
-#PAYAPI website by figma template
+#PAYAPI website by figma template#
 ``Welcome to PAYAPI website project!``  
 ``Page project is based on figma multi-page PAYAPI website template.``
 
-##Github project live page
+##Github project live page##
 To view our website, just type: https://wirusas.github.io/
 
 ##How to start project##
