@@ -1,184 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- HEAD -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Code_Crafting_Wizards">
     <meta name="keywords" content="Design, payapi, APIs">
     <meta name="description" content="Start building with our APIs for absolutely free">
+    <title>Contact</title>
     <link rel="icon" type="image/x-icon" href="../IMG/favicon-32x32.png">
     <!-- Typography DM Serif Display & Publick Sans-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
     <link rel="stylesheet" href="../CSS/navigation.css">
     <link rel="stylesheet" href="../CSS/start-line.css">
     <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="../CSS/alternate-pages-layout.css">
     <link rel="stylesheet" href="../CSS/contacts.css">
-
-    <!-- <<<<<<            MAIN PAGE          >>>>> -->
-
-    <!--Place your part at the dedicated part, all parts are named same as in CSS-->
-
-    <!-- BODY -->
-
-
 <body>
-    <!-- NAV -->
-    <nav class="navbar">
-        <!-- Siame logo-list turime logo ir list Pricing About Contact -->
-        <div class="logo-list">
-            <div class="logo">
-                <a href="../index.html"><img src="../IMG/home/desktop/payapi.svg" alt="Payapi" class="payapi" /></a>
-            </div>
-
-            <!-- Cia yra pasleptas meniu reikalingas mobile versijai  -->
-            <div class="menu-toggle">&#9776;</div>
-            <ul class="menu">
-                <!-- Cia turime nuorodos kurios nukreipia i tam tikras puslapio zymas -->
-                <li class="close-menu">
-                    <a href="#"><img src="../IMG/home/desktop/x.svg" alt="closetag" class="logo-x" /></a>
-                </li>
-                <li><a href="../PAGES/pricing.html">Pricing</a></li>
-                <li><a href="../PAGES/about.html">About</a></li>
-                <li><a href="../PAGES/contacts.html">Contact</a></li>
-                <!-- Mobile migtukas -->
-                <li>
-                    <button class="mobile">Schedule a Demo</button>
-                </li>
-            </ul>
+<!-- NAV -->
+<nav class="navbar">
+    <div class="logo-list">
+        <div class="logo">
+            <a href="../index.html"><img src="../IMG/home/desktop/payapi.svg" alt="Payapi" class="payapi"/></a>
         </div>
-        <button class="schedule-demo">Schedule a Demo</button>
-    </nav>
+        <div class="menu-toggle">&#9776;</div>
+        <ul class="menu">
+            <!-- MOBILE HAMBURGER -->
+            <li class="close-menu">
+                <a href="#"><img src="../IMG/home/desktop/x.svg" alt="closetag" class="logo-x"/></a>
+            </li>
+            <li><a href="../PAGES/pricing.html">Pricing</a></li>
+            <li><a href="../PAGES/about.html">About</a></li>
+            <li><a href="../PAGES/contacts.html">Contact</a></li>
+            <!-- MOBILE HAMBURGER -->
+            <li>
+                <button class="mobile">Schedule a Demo</button>
+            </li>
+        </ul>
+    </div>
+    <button class="schedule-demo">Schedule a Demo</button>
+</nav>
+<main>
+    <header class="contacts-main-heading">
+        <h1>Submit a help request and
+            we’ll get in touch shortly.</h1>
+    </header>
+    <!-- MAIN CONTENT -->
+    <section class="contacts-main-content">
+        <!-- SUBMIT FORM -->
+        <article class="contacts-submit-form">
+            <form action="url" class="contacts-main-form">
+                <label for="user-name">
+                    <input type="text" name="user-name" id="user-name" placeholder="Name"
+                           pattern="[A-Z][a-z]{0, 30}">
+                </label>
+                <label for="user-email">
+                    <input type="email" name="user-email" id="user-email" placeholder="Email Address" required
+                           pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" class="required-input">
+                </label>
+                <div class="required-note">
+                    <p>This field can’t be empty</p>
+                </div>
+                <label for="company-name">
+                    <input type="text" name="company-name" id="company-name" placeholder="Company Name">
+                </label>
+                <label for="user-title">
+                    <input type="text" name="user-title" id="user-title" placeholder="Title">
+                </label>
 
-
-    <!-- MAIN -->
-    <!-- MAIN HEADING -->
-    <main>
-         <header class="contacts-main-heading">
-                    <h1>Submit a help request and
-                        we’ll get in touch shortly.</h1>
-                </header>
-                <!-- MAIN CONTENT -->
-        <section class="contacts-main-content">
-
-            <!-- SUBMIT FORM -->
-
-            <article class="contacts-submit-form">
-               
-                
-                <form action="url" class="contacts-main-form">
-                    <label for="user-name">
-                        <input type="text" name="user-name" id="user-name" placeholder="Name"
-                            pattern="[A-Z][a-z]{0, 30}">
-                    </label>
-                    
-                    <label for="user-email">
-                        <input type="email" name="user-email" id="user-email" placeholder="Email Address" required
-                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" class="required-input">
-                    </label>
-                    <div class="required-note">
-                    <p >This field can’t be empty</p>
-                    </div>
-                    <label for="company-name">
-                        <input type="text" name="company-name" id="company-name" placeholder="Company Name">
-                    </label>
-                   
-                    <label for="user-title">
-                        <input type="text" name="user-title" id="user-title" placeholder="Title">
-                    </label>
-                    
-                    <label for="contact-message">
+                <label for="contact-message">
                         <textarea name="contact-message" id="contact-message">Message
                         </textarea>
-                    </label>
-                    
-                    <label class="checkbox-container">
-                        <input type="checkbox">
-                        <span class="checkmark"></span>Stay up-to-date with company announcements and updates to our API
-                    </label>
-                    <div class="button-container">
-                        <input type="submit" name="submit" id="submit" value="Submit" class="button">
-                    </div>
-
-                </form>
-            </article>
-
-
-
-            <!-- PARTNERS -->
-            <article class="contacts-partners-content">
-                <h2 class="partners-heading">Join the thousands of innovators already building with us</h2>
-
-                <div class="partners-icons">
-                    <img src="../IMG/about/tesla_logo.svg" alt="tesla-logo" class="tesla-logo">
-
-                    <img src="../IMG/about/microsoft_logo.svg" alt="ms-logo" class="ms-logo">
-
-
-                    <img src="../IMG/about/hp_logo.svg" alt="hp-logo" class="hp-logo">
-
-
-                    <img src="../IMG/about/oracle_logo.svg" alt="oracle-logo" class="oracle-logo">
-
-                    <img src="../IMG/about/google_logo.svg" alt="google-logo" class="google-logo">
-
-                    <img src="../IMG/about/nvidia_logo.svg" alt="nvidia-logo" class="nvidia-logo">
-                </div>
-            </article>
-
-        </section>
-
-
-        <!-- READY TO START LINE -->
-        
-        <section class="main-contnent-2">
-        </section>
-        <section>
-            <form class="ready-to-start" action="#" onsubmit="setTimeout(function(){window.location.reload();},10);">
-                <h2>Ready to start?</h2>
-                <div class="input-container container-right">
-                    <input type="email" id="email-2" placeholder="Enter email address" class="email-input-2" required />
-                    <input type="submit" class="btn-demo" value="Schedule a Demo">
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>Stay up-to-date with company announcements and updates to our API
+                </label>
+                <div class="button-container">
+                    <input type="submit" name="submit" id="submit" value="Submit" class="button">
                 </div>
             </form>
-        </section>
-
-        <!-- READY TO START LINE BEFORE FOOTER -->
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-nav">
-            <a href="../index.html"><img src="../IMG/home/desktop/payapi.svg" alt="payapi-footer-logo" class="payapi-footer-logo">
-            </a>
-            <ul>
-                <li><a href="../PAGES/pricing.html">Pricing</a></li>
-                <li><a href="../PAGES/about.html">About</a></li>
-                <li><a href="../PAGES/contacts.html">Contacts</a></li>
-            </ul>
-        </div>
-        <div class="footer-social">
-            <a href="#"><img src="../IMG/shared/desktop/musu_logo.JPG" alt="team-icon"></a>
-
-            <a href="https://www.facebook.com/">
-                <img src="../IMG/shared/desktop/facebook.svg" alt="facebook-icon" class="social-hover"></a>
-
-
-            <a href="https://twitter.com/"><img src="../IMG/shared/desktop/twitter.svg" alt="tviter-icon"
-                    class="social-hover twiter-logo"></a>
-
-            <a href="https://www.linkedin.com/home"><img src="../IMG/shared/desktop/linkedin.svg" alt="linkedin-icon"
-                    class="social-hover"></a>
-        </div>
-    </footer>
-
-    <script src="../JS/main.js"></script>
-    <script src="../JS/contacts.js"></script>
+        </article>
+        <!-- PARTNERS -->
+        <article class="contacts-partners-content">
+            <h2 class="partners-heading">Join the thousands of innovators already building with us</h2>
+            <div class="partners-icons">
+                <img src="../IMG/about/tesla_logo.svg" alt="tesla-logo" class="tesla-logo">
+                <img src="../IMG/about/microsoft_logo.svg" alt="ms-logo" class="ms-logo">
+                <img src="../IMG/about/hp_logo.svg" alt="hp-logo" class="hp-logo">
+                <img src="../IMG/about/oracle_logo.svg" alt="oracle-logo" class="oracle-logo">
+                <img src="../IMG/about/google_logo.svg" alt="google-logo" class="google-logo">
+                <img src="../IMG/about/nvidia_logo.svg" alt="nvidia-logo" class="nvidia-logo">
+            </div>
+        </article>
+    </section>
+    <section class="main-contnent-2">
+    </section>
+    <section>
+        <form class="ready-to-start" action="#" onsubmit="setTimeout(function(){window.location.reload();},10);">
+            <h2>Ready to start?</h2>
+            <div class="input-container container-right">
+                <input type="email" id="email-2" placeholder="Enter email address" class="email-input-2" required/>
+                <input type="submit" class="btn-demo" value="Schedule a Demo">
+            </div>
+        </form>
+    </section>
+</main>
+<!-- FOOTER -->
+<footer>
+    <div class="footer-nav">
+        <a href="../index.html"><img src="../IMG/home/desktop/payapi.svg" alt="payapi-footer-logo"
+                                     class="payapi-footer-logo">
+        </a>
+        <ul>
+            <li><a href="../PAGES/pricing.html">Pricing</a></li>
+            <li><a href="../PAGES/about.html">About</a></li>
+            <li><a href="../PAGES/contacts.html">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="footer-social">
+        <a href="#"><img src="../IMG/shared/desktop/musu_logo.JPG" alt="team-icon"></a>
+        <a href="https://www.facebook.com/">
+            <img src="../IMG/shared/desktop/facebook.svg" alt="facebook-icon" class="social-hover"></a>
+        <a href="https://twitter.com/"><img src="../IMG/shared/desktop/twitter.svg" alt="tviter-icon"
+                                            class="social-hover twiter-logo"></a>
+        <a href="https://www.linkedin.com/home"><img src="../IMG/shared/desktop/linkedin.svg" alt="linkedin-icon"
+                                                     class="social-hover"></a>
+    </div>
+</footer>
+<script src="../JS/main.js"></script>
+<script src="../JS/contacts.js"></script>
 </body>
-
 </html>

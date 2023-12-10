@@ -1,14 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @media screen and (max-width:768px) {
-    .main-content-2 {
+    .main-content-two {
         display: flex;
         flex-direction: column;
-
     }
 
     .title-about {
@@ -17,26 +10,22 @@
         align-items: center;
         width: 100%;
         margin-bottom: 40px;
-
-
     }
 
     .title-about h1 {
         width: 327px;
         height: 152px;
         flex-shrink: 0;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'DM Serif Display';
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: 36px;
-        /* 112.5% */
         letter-spacing: -0.246px;
         margin-left: 24px;
         margin-right: 24px;
-
     }
 
     .first-row-about {
@@ -47,38 +36,35 @@
         margin-bottom: 48px;
     }
 
-    .Vision {
+    .vision, .business, .people, .culture {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-
     }
 
-    .Vision h1 {
+    .vision h1, .business h1, .people h1, .culture h1 {
         width: 255px;
         height: 32px;
         text-align: center;
-        color: #36536B;
-        text-align: center;
-        font-family: 'DM Serif Display';
+        color: var(--suan-juan-blue);
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
-        /* 133.333% */
         letter-spacing: -0.185px;
         margin-bottom: 16px;
         margin-left: 60px;
         margin-right: 60px;
     }
 
-    .Vision p {
+    .vision p, .business p, .people p, .culture p {
         width: 327px;
         height: 196px;
-        color: #6C8294;
+        color: var(--light-suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
+        font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -93,45 +79,6 @@
         align-items: center;
         width: 100%;
         margin-bottom: 76px;
-    }
-
-    .Business {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .Business h1 {
-        width: 255px;
-        height: 32px;
-        text-align: center;
-        color: #36536B;
-        text-align: center;
-        font-family: 'DM Serif Display';
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        /* 133.333% */
-        letter-spacing: -0.185px;
-        margin-bottom: 16px;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    .Business p {
-        width: 327px;
-        height: 168px;
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        margin-left: 24px;
-        margin-right: 24px;
     }
 
     .background-about {
@@ -152,9 +99,6 @@
         width: 100%;
         position: relative;
         margin-bottom: 48px;
-
-
-
     }
 
     .four-row-about h1,
@@ -163,9 +107,9 @@
     }
 
     .four-row-about p {
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'Public Sans';
+        font-family: 'Public Sans', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -175,13 +119,12 @@
         margin-right: 24px;
         width: 328px;
         height: 28px;
-
     }
 
     .four-row-about h1 {
-        color: #BA4270;
+        color: var(--dark-pink);
         text-align: center;
-        font-family: 'DM Serif Display';
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
         font-style: normal;
         font-weight: 400;
@@ -191,7 +134,6 @@
         margin-right: 24px;
         width: 327px;
         height: 72px;
-
     }
 
     .four-row-about::before,
@@ -231,53 +173,12 @@
         margin-bottom: 16px;
     }
 
-
-
     .fifth-row-about {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin-bottom: 48px;
-    }
-
-    .Culture {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .Culture h1 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'DM Serif Display';
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        /* 133.333% */
-        letter-spacing: -0.185px;
-        width: 255px;
-        height: 32px;
-        margin-bottom: 16px;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    .Culture p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 327px;
-        height: 196px;
-        margin-left: 24px;
-        margin-right: 24px;
     }
 
     .six-row-about {
@@ -294,46 +195,10 @@
         align-items: center;
         width: 100%;
     }
-
-    .people h1 {
-        color: #36536B;
-        text-align: center;
-        font-family: 'DM Serif Display';
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        /* 133.333% */
-        letter-spacing: -0.185px;
-        width: 255px;
-        height: 32px;
-        margin-bottom: 16px;
-        margin-left: 60px;
-        margin-right: 60px;
-
-
-
-    }
-
-    .people p {
-        color: #6C8294;
-        text-align: center;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 327px;
-        height: 112px;
-        margin-left: 24px;
-        margin-right: 24px;
-    }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-    .main-content-2 {
+    .main-content-two {
         display: flex;
         flex-direction: column;
     }
@@ -348,14 +213,13 @@
     .title-about h1 {
         width: 573px;
         height: 178px;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: center;
-        font-family: 'DM Serif Display';
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
         line-height: 56px;
-        /* 112.5% */
         letter-spacing: -0.369px;
         margin-left: 97px;
         margin-right: 98px;
@@ -368,7 +232,7 @@
         margin-bottom: 64px;
     }
 
-    .Vision {
+    .vision, .business, .people, .culture {
         display: flex;
         flex-direction: row;
     }
@@ -377,34 +241,30 @@
         height: 0.0625rem;
         margin: 16px auto;
         opacity: 0.25;
-        background: #36536B;
-
+        background: var(--suan-juan-blue);
     }
 
-    .Vision h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
+    .vision h1, .business h1, .people h1, .culture h1 {
+        color: var(--suan-juan-blue);
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: 40px;
-        /* 125% */
         letter-spacing: -0.246px;
         width: 223px;
         height: 40px;
         margin-left: 39px;
         text-align: left;
-
     }
 
-    .Vision p {
-        color: #6C8294;
-        font-family: 'Public Sans';
+    .vision p, .business p, .people p, .culture p {
+        color: var(--light-suan-juan-blue);
+        font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
-        /* 186.667% */
         width: 456px;
         height: 140px;
         margin-right: 40px;
@@ -418,40 +278,6 @@
         margin-bottom: 64px;
     }
 
-    .Business {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .Business h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 40px;
-        /* 125% */
-        letter-spacing: -0.246px;
-        width: 223px;
-        height: 40px;
-        margin-left: 39px;
-        text-align: left;
-    }
-
-    .Business p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 456px;
-        height: 112px;
-        margin-right: 40px;
-        text-align: left;
-    }
-
     .background-about {
         background-image: url(../IMG/about/tablet/image-team-members.jpg);
         max-width: 100%;
@@ -460,7 +286,6 @@
         background-repeat: no-repeat;
         background-position: center;
         margin-bottom: 34px;
-        
     }
    
     .four-row-about {
@@ -470,12 +295,7 @@
         column-gap: 10px;
         align-items: center;
         width: 100%;
-        /* position: relative; */
         margin-bottom: 64px;
-
-
-
-
     }
 
     .four-row-about p {
@@ -488,11 +308,10 @@
         text-align: center;
     }
 
-
     .four-row-about h1 {
-        color: #BA4270;
+        color: var(--dark-pink);
         text-align: center;
-        font-family: 'DM Serif Display';
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
         font-style: normal;
         font-weight: 400;
@@ -501,7 +320,6 @@
         width: 223px;
         height: 72px;
         margin-top: 44px;
-
     }
 
     .fifth-row-about {
@@ -509,42 +327,6 @@
         justify-content: center;
         width: 100%;
         margin-bottom: 64px;
-
-    }
-
-    .Culture {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .Culture h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 40px;
-        /* 125% */
-        letter-spacing: -0.246px;
-        width: 223px;
-        height: 40px;
-        margin-left: 39px;
-        text-align: left;
-    }
-
-    .Culture p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 456px;
-        height: 140px;
-        margin-left: 40px;
-        text-align: left;
     }
 
     .six-row-about {
@@ -559,40 +341,9 @@
         flex-direction: row;
         justify-content: center;
     }
-
-    .people h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 40px;
-        /* 125% */
-        letter-spacing: -0.246px;
-        width: 223px;
-        height: 40px;
-        margin-left: 39px;
-        text-align: left;
-    }
-
-    .people p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 456px;
-        height: 84px;
-        margin-left: 40px;
-        text-align: left;
-    }
-
 }
 
 @media screen and (min-width: 1440px) {
-    
     body {
             /*BODY BACKGROUND*/
             background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg'), url('../IMG/shared/desktop/bg-pattern-circle.svg');
@@ -600,10 +351,10 @@
             background-size: 48.8rem 48.8rem;
             margin: 0 auto;
         }
-    .main-content-2 {
+
+    .main-content-two {
         display: flex;
         flex-direction: column;
-        
     }
 
     .title-about {
@@ -611,7 +362,6 @@
         justify-content: center;
         width: 100%;
         margin-bottom: 51px;
-      
     }
 
     .title-about h1 {
@@ -619,16 +369,14 @@
         height: 189px;
         text-align: left;
         flex-shrink: 0;
-        color: #36536B;
-        font-family: 'DM Serif Display';
+        color: var(--suan-juan-blue);
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
         font-style: normal;
         font-weight: 400;
         line-height: 56px;
-        /* 112.5% */
         letter-spacing: -0.431px;
         margin-left: -160px;
-
     }
 
     .first-row-about {
@@ -638,7 +386,7 @@
         margin-bottom: 56px;
     }
 
-    .Vision {
+    .vision, .people, .business, .culture {
         display: flex;
         flex-direction: row;
     }
@@ -647,32 +395,29 @@
         height: 0.0625rem;
         margin: 16px auto;
         opacity: 0.25;
-        background: #36536B;
+        background: var(--suan-juan-blue);
     }
 
-
-    .Vision h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
+    .vision h1, .business h1, .people h1, .culture h1 {
+        color: var(--suan-juan-blue);
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: 40px;
-        /* 125% */
         letter-spacing: -0.246px;
         width: 255px;
         text-align: left;
         height: 40px;
     }
 
-    .Vision p {
-        color: #6C8294;
-        font-family: 'Public Sans';
+    .vision p, .business p, .people p, .culture p {
+        color: var(--light-suan-juan-blue);
+        font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
-        /* 186.667% */
         width: 635px;
         text-align: left;
         height: 112px;
@@ -685,41 +430,10 @@
         margin-bottom: 70px;
     }
 
-    .Business {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    .Business h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 40px;
-        /* 125% */
-        letter-spacing: -0.246px;
-        width: 255px;
-        text-align: left;
-        height: 40px;
-    }
-
-    .Business p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 635px;
-        text-align: left;
-        height: 84px;
-    }
     .cover{
         position: relative;
     }
+
     .background-about {
         background-image: url(../IMG/about/desktop/image-team-members.jpg);
         max-width: 100%;
@@ -728,8 +442,6 @@
         background-repeat: no-repeat;
         background-position: center center;
         margin-bottom: 50px;
-           
-        
     }
 
     .four-row-about {
@@ -744,9 +456,9 @@
     }
 
     .four-row-about p {
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: left;
-        font-family: 'Public Sans';
+        font-family: 'Public Sans', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -757,9 +469,8 @@
     }
 
     .four-row-about h1 {
-        color: #BA4270;
-        text-align: center;
-        font-family: 'DM Serif Display';
+        color: var(--dark-pink);
+        font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
         font-style: normal;
         font-weight: 400;
@@ -768,7 +479,6 @@
         width: 350px;
         height: 72px;
         text-align: left;
-
     }
 
     .fifth-row-about {
@@ -776,39 +486,6 @@
         justify-content: center;
         width: 100%;
         margin-bottom: 56px;
-
-    }
-
-    .Culture {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .Culture h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 40px;
-        /* 125% */
-        letter-spacing: -0.246px;
-        width: 255px;
-        text-align: left;
-        height: 40px;
-    }
-
-    .Culture p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 635px;
-        text-align: left;
-        height: 112px;
     }
 
     .six-row-about {
@@ -817,39 +494,4 @@
         width: 100%;
         margin-bottom: 56px;
     }
-
-    .people {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .people h1 {
-        color: #36536B;
-        font-family: 'DM Serif Display';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 40px;
-        /* 125% */
-        letter-spacing: -0.246px;
-        width: 255px;
-        text-align: left;
-        height: 40px;
-    }
-
-    .people p {
-        color: #6C8294;
-        font-family: 'Public Sans';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        /* 186.667% */
-        width: 635px;
-        text-align: left;
-        height: 56px;
-    }
-
-
-
 }
