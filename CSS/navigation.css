@@ -299,6 +299,7 @@ body {
     .navbar {
         margin-left: 2.44rem;
         margin-right: 2.44rem;
+        margin-bottom: 5rem;
     }
 }
 
@@ -306,5 +307,6 @@ body {
     .navbar {
         margin-left: 10.31rem;
         margin-right: 10.31rem;
+        margin-bottom: 5.125rem;
     }
 }
