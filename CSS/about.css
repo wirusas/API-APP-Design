@@ -16,7 +16,7 @@
         width: 327px;
         height: 152px;
         flex-shrink: 0;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: center;
         font-family: 'DM Serif Display', sans-serif;
         font-size: 32px;
@@ -36,18 +36,18 @@
         margin-bottom: 48px;
     }
 
-    .Vision, .Business, .people, .Culture {
+    .vision, .business, .people, .culture {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .Vision h1, .Business h1, .people h1, .Culture h1 {
+    .vision h1, .business h1, .people h1, .culture h1 {
         width: 255px;
         height: 32px;
         text-align: center;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         font-family: 'DM Serif Display', sans-serif;
         font-size: 24px;
         font-style: normal;
@@ -59,10 +59,10 @@
         margin-right: 60px;
     }
 
-    .Vision p, .Business p, .people p, .Culture p {
+    .vision p, .business p, .people p, .culture p {
         width: 327px;
         height: 196px;
-        color: #6C8294;
+        color: var(--light-suan-juan-blue);
         text-align: center;
         font-family: 'Public Sans', sans-serif;
         font-size: 15px;
@@ -107,7 +107,7 @@
     }
 
     .four-row-about p {
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: center;
         font-family: 'Public Sans', sans-serif;
         font-size: 16px;
@@ -122,7 +122,7 @@
     }
 
     .four-row-about h1 {
-        color: #BA4270;
+        color: var(--dark-pink);
         text-align: center;
         font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
@@ -213,7 +213,7 @@
     .title-about h1 {
         width: 573px;
         height: 178px;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: center;
         font-family: 'DM Serif Display', sans-serif;
         font-size: 48px;
@@ -232,7 +232,7 @@
         margin-bottom: 64px;
     }
 
-    .Vision, .Business, .people, .Culture {
+    .vision, .business, .people, .culture {
         display: flex;
         flex-direction: row;
     }
@@ -241,11 +241,11 @@
         height: 0.0625rem;
         margin: 16px auto;
         opacity: 0.25;
-        background: #36536B;
+        background: var(--suan-juan-blue);
     }
 
-    .Vision h1, .Business h1, .people h1, .Culture h1 {
-        color: #36536B;
+    .vision h1, .business h1, .people h1, .culture h1 {
+        color: var(--suan-juan-blue);
         font-family: 'DM Serif Display', sans-serif;
         font-size: 32px;
         font-style: normal;
@@ -258,8 +258,8 @@
         text-align: left;
     }
 
-    .Vision p, .Business p, .people p, .Culture p {
-        color: #6C8294;
+    .vision p, .business p, .people p, .culture p {
+        color: var(--light-suan-juan-blue);
         font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
@@ -309,7 +309,7 @@
     }
 
     .four-row-about h1 {
-        color: #BA4270;
+        color: var(--dark-pink);
         text-align: center;
         font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
@@ -369,7 +369,7 @@
         height: 189px;
         text-align: left;
         flex-shrink: 0;
-        color: #36536B;
+        color: var(--suan-juan-blue);
         font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
         font-style: normal;
@@ -386,7 +386,7 @@
         margin-bottom: 56px;
     }
 
-    .Vision, .people, .Business, .Culture {
+    .vision, .people, .business, .culture {
         display: flex;
         flex-direction: row;
     }
@@ -395,11 +395,11 @@
         height: 0.0625rem;
         margin: 16px auto;
         opacity: 0.25;
-        background: #36536B;
+        background: var(--suan-juan-blue);
     }
 
-    .Vision h1, .Business h1, .people h1, .Culture h1 {
-        color: #36536B;
+    .vision h1, .business h1, .people h1, .culture h1 {
+        color: var(--suan-juan-blue);
         font-family: 'DM Serif Display', sans-serif;
         font-size: 32px;
         font-style: normal;
@@ -411,8 +411,8 @@
         height: 40px;
     }
 
-    .Vision p, .Business p, .people p, .Culture p {
-        color: #6C8294;
+    .vision p, .business p, .people p, .culture p {
+        color: var(--light-suan-juan-blue);
         font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
@@ -456,7 +456,7 @@
     }
 
     .four-row-about p {
-        color: #36536B;
+        color: var(--suan-juan-blue);
         text-align: left;
         font-family: 'Public Sans', sans-serif;
         font-size: 16px;
@@ -469,7 +469,7 @@
     }
 
     .four-row-about h1 {
-        color: #BA4270;
+        color: var(--dark-pink);
         font-family: 'DM Serif Display', sans-serif;
         font-size: 56px;
         font-style: normal;
