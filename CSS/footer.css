@@ -1,28 +1,4 @@
-/* READ ME */
-/* Place your part at the dedicated part, all parts are named same as in html  */
-
-
-/*VARIABLES*/
-
-:root {
-    /*PRIMARY COLORS*/
-    --dark-pink: #ba4270;
-    --link-water-white: #fbfcfe;
-    /*SECONDARY COLORS*/
-    --charm-pink-actives: #da6d97;
-    --suan-juan-blue: #36536b;
-    --light-suan-juan-blue: #6c8294;
-    --mirage-blue: #1b262f;
-}
-
-/*TYPOGRAPHY to use copy and paste where needed
-
-font-family: 'DM Serif Display', serif;
-font-family: 'Public Sans', sans-serif;
-
-*/
-
-/* FOOTER */
+/* MOBILE */
 footer {
     background-color: var(--mirage-blue);
     height: 22.1rem;
@@ -32,9 +8,7 @@ footer {
     background-repeat: no-repeat;
     background-position: right 50% bottom -37.83rem;
     background-size: 48.75rem 48.75rem;
-
 }
-
 
 footer img {
     width: 1.5rem;
@@ -42,7 +16,7 @@ footer img {
     margin: 0 0.75rem;
 }
 
-.twiter-logo {
+.twitter-logo {
     width: 1.5rem;
     height: 1.219rem;
 }
@@ -57,7 +31,6 @@ footer img {
     width: 8.4375rem;
     height: 2.375rem;
     filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(3662%) hue-rotate(181deg) brightness(96%) contrast(107%);
-
 }
 
 footer ul {
@@ -68,8 +41,6 @@ footer ul {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
-
 }
 
 footer ul li {
@@ -83,20 +54,17 @@ footer a {
 footer a:link {
     color: #FBFCFE;
     opacity: 0.7;
-
 }
 
 footer a:visited {
     color: #FBFCFE;
     opacity: 0.7;
-
 }
 
 footer a:hover {
     color: var(--link-water-white);
     opacity: 1;
     cursor: pointer;
-
 }
 
 footer a:active {
@@ -110,22 +78,14 @@ footer a:active {
     height: 26px;
 }
 
-
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-
-/* >768px */
-
+/* TABLET */
 @media (min-width: 768px) {
-
-    /* FOOTER */
     footer {
         height: 6.25rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 0 2.44rem;
-
         background-image: url('../IMG/shared/desktop/bg-pattern-circle.svg');
         background-repeat: no-repeat;
         background-position: right -24.32rem bottom -33.974rem;
@@ -138,7 +98,6 @@ footer a:active {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     footer ul {
@@ -154,17 +113,11 @@ footer a:active {
     .payapi-footer-logo {
         margin-top: 0;
         margin-bottom: 0;
-        
-    
     }
-
-
 }
 
-/* >1440px */
+/* DESKTOP */
 @media (min-width: 1440px) {
-
-    /* FOOTER */
     footer {
         padding: 0 10.25rem;
     }
